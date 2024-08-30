@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5fce611478927a57f66a0337ad87842 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a5fce611478927a57f66a0337ad87842" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a5fce611478927a57f66a0337ad87842 = L.map(
+                "map_a5fce611478927a57f66a0337ad87842",
+                {
+                    center: [30.264636000000003, -93.32087100000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_960e490626778e7481ea12dbbd421497 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_960e490626778e7481ea12dbbd421497.addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            var poly_line_f1024586a41dc227198acd5270d0cbff = L.polyline(
+                [[30.43863, -93.20991], [30.43181, -93.22842]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            var marker_37fdab480e0d19c34efecfa1afb152ae = L.marker(
+                [30.43863, -93.20991],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_37fdab480e0d19c34efecfa1afb152ae.bindTooltip(
+                `<div>
+                     Pipeline: Transco, Origin: Transco, Destination: Texas Eastern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88018f5f9640ffeeb7d16bb9e5e5fbb5 = L.marker(
+                [30.43181, -93.22842],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_88018f5f9640ffeeb7d16bb9e5e5fbb5.bindTooltip(
+                `<div>
+                     Pipeline: Transco, Origin: Transco, Destination: Texas Eastern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cdd2d35a62a321a5e1d2a95a716d3137 = L.polyline(
+                [[30.43181, -93.22842], [30.33743, -93.36316]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            var marker_44c799889688ee7d1adcb80bb114d0a4 = L.marker(
+                [30.43181, -93.22842],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_44c799889688ee7d1adcb80bb114d0a4.bindTooltip(
+                `<div>
+                     Pipeline: Texas Eastern, Origin: Texas Eastern, Destination: Tennessee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef8313cea14fdc80d703f30504a4b1b3 = L.marker(
+                [30.33743, -93.36316],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_ef8313cea14fdc80d703f30504a4b1b3.bindTooltip(
+                `<div>
+                     Pipeline: Texas Eastern, Origin: Texas Eastern, Destination: Tennessee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8fd89f430e7f5e1e056e1d6760f95bc8 = L.polyline(
+                [[30.33743, -93.36316], [30.28157, -93.40025]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            var marker_6c31225db24863fd65379857674412fb = L.marker(
+                [30.33743, -93.36316],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_6c31225db24863fd65379857674412fb.bindTooltip(
+                `<div>
+                     Pipeline: Tennessee, Origin: Tennessee, Destination: Florida Gas Transmission
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d0d877372461c4fedaf47a7487105bc = L.marker(
+                [30.28157, -93.40025],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_6d0d877372461c4fedaf47a7487105bc.bindTooltip(
+                `<div>
+                     Pipeline: Tennessee, Origin: Tennessee, Destination: Florida Gas Transmission
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ac19c90a9d5ee42474553df06023d37a = L.polyline(
+                [[30.28157, -93.40025], [30.03537, -93.33838]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            var marker_b2e852098df5a880ed52c16d36413d78 = L.marker(
+                [30.28157, -93.40025],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_b2e852098df5a880ed52c16d36413d78.bindTooltip(
+                `<div>
+                     Pipeline: Florida Gas Transmission, Origin: Florida Gas Transmission, Destination: Cameron LNG (Del)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50d1bed9671cd4f7f30f838977d85d9a = L.marker(
+                [30.03537, -93.33838],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_50d1bed9671cd4f7f30f838977d85d9a.bindTooltip(
+                `<div>
+                     Pipeline: Florida Gas Transmission, Origin: Florida Gas Transmission, Destination: Cameron LNG (Del)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5dd30235b62e473aa3ced30f95ed25fc = L.polyline(
+                [[30.03537, -93.33838], [30.03537, -93.33838]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            var marker_e2f14594b9f3535bb01cebab4c7576fb = L.marker(
+                [30.03537, -93.33838],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_e2f14594b9f3535bb01cebab4c7576fb.bindTooltip(
+                `<div>
+                     Pipeline: Cameron LNG (Del), Origin: Cameron LNG (Del), Destination: Cameron LNG (Del)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f908d47e6d238b492e5f3ef6be918f28 = L.marker(
+                [30.03537, -93.33838],
+                {}
+            ).addTo(map_a5fce611478927a57f66a0337ad87842);
+        
+    
+            marker_f908d47e6d238b492e5f3ef6be918f28.bindTooltip(
+                `<div>
+                     Pipeline: Cameron LNG (Del), Origin: Cameron LNG (Del), Destination: Cameron LNG (Del)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

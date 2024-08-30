@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_81b0387786c34f963842c3bc62b36339 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_81b0387786c34f963842c3bc62b36339" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_81b0387786c34f963842c3bc62b36339 = L.map(
+                "map_81b0387786c34f963842c3bc62b36339",
+                {
+                    center: [43.6005398275862, -70.25501120689654],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_704edf09620707845d9f2ec9c82d659b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_704edf09620707845d9f2ec9c82d659b.addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var poly_line_9d28e93e2e85da62beee4e8d5eec83da = L.polyline(
+                [[45.22228, -67.43699], [44.82391, -68.7014]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_3984603ae84f3b6d22839894db983dfc = L.marker(
+                [45.22228, -67.43699],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_3984603ae84f3b6d22839894db983dfc.bindTooltip(
+                `<div>
+                     Pipeline: BAILEYVILLE BORDER M&R (OUT - WASHINGTON CO. ME (REC. 30012, Origin: BAILEYVILLE BORDER M&R (OUT - WASHINGTON CO. ME (REC. 30012, Destination: CASCO BAY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f36660332b2b55fae29d2b43c0a1e7e3 = L.marker(
+                [44.82391, -68.7014],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_f36660332b2b55fae29d2b43c0a1e7e3.bindTooltip(
+                `<div>
+                     Pipeline: BAILEYVILLE BORDER M&R (OUT - WASHINGTON CO. ME (REC. 30012, Origin: BAILEYVILLE BORDER M&R (OUT - WASHINGTON CO. ME (REC. 30012, Destination: CASCO BAY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3d6e735eb5496465f4141f71cf16baa8 = L.polyline(
+                [[44.82391, -68.7014], [44.82414, -68.70775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_04a88f2773cd6fb5a9854fb66e071b9e = L.marker(
+                [44.82391, -68.7014],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_04a88f2773cd6fb5a9854fb66e071b9e.bindTooltip(
+                `<div>
+                     Pipeline: CASCO BAY, Origin: CASCO BAY, Destination: BANGOR GAS - VEAZIE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d8705c8722d60a50ccdbfb36914433b = L.marker(
+                [44.82414, -68.70775],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_9d8705c8722d60a50ccdbfb36914433b.bindTooltip(
+                `<div>
+                     Pipeline: CASCO BAY, Origin: CASCO BAY, Destination: BANGOR GAS - VEAZIE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c75a52183e3a5513de70335c33b33c81 = L.polyline(
+                [[44.82414, -68.70775], [44.68168, -68.77951]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_006859c7cefd6d6f12fbd96462d18367 = L.marker(
+                [44.82414, -68.70775],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_006859c7cefd6d6f12fbd96462d18367.bindTooltip(
+                `<div>
+                     Pipeline: BANGOR GAS - VEAZIE, Origin: BANGOR GAS - VEAZIE, Destination: BANGOR GAS - BUCKSPORT (ORRINGTON)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46e128f1e88d6102981c7c2a7d04907f = L.marker(
+                [44.68168, -68.77951],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_46e128f1e88d6102981c7c2a7d04907f.bindTooltip(
+                `<div>
+                     Pipeline: BANGOR GAS - VEAZIE, Origin: BANGOR GAS - VEAZIE, Destination: BANGOR GAS - BUCKSPORT (ORRINGTON)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f9691b33ca83e62151ff5b1614ac343d = L.polyline(
+                [[44.68168, -68.77951], [44.44992, -69.70383]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_82e91b2ceb0ec7b9a1d075fd7aa1660e = L.marker(
+                [44.68168, -68.77951],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_82e91b2ceb0ec7b9a1d075fd7aa1660e.bindTooltip(
+                `<div>
+                     Pipeline: BANGOR GAS - BUCKSPORT (ORRINGTON), Origin: BANGOR GAS - BUCKSPORT (ORRINGTON), Destination: MAINE NAT GAS - WINDSOR, KENNEBEC CO, ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2259ce6d51590e106147c82ce3a0a112 = L.marker(
+                [44.44992, -69.70383],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_2259ce6d51590e106147c82ce3a0a112.bindTooltip(
+                `<div>
+                     Pipeline: BANGOR GAS - BUCKSPORT (ORRINGTON), Origin: BANGOR GAS - BUCKSPORT (ORRINGTON), Destination: MAINE NAT GAS - WINDSOR, KENNEBEC CO, ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_45fcb9fa647613363ad77aeb8bbedac6 = L.polyline(
+                [[44.44992, -69.70383], [44.44992, -69.70383]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_3f94a3db7610d018b5c23385d0131a51 = L.marker(
+                [44.44992, -69.70383],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_3f94a3db7610d018b5c23385d0131a51.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NAT GAS - WINDSOR, KENNEBEC CO, ME, Origin: MAINE NAT GAS - WINDSOR, KENNEBEC CO, ME, Destination: SUMMIT NATURAL GAS - PITTSTON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6e29a6489c2bc833fa6c6fd28583a78 = L.marker(
+                [44.44992, -69.70383],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_d6e29a6489c2bc833fa6c6fd28583a78.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NAT GAS - WINDSOR, KENNEBEC CO, ME, Origin: MAINE NAT GAS - WINDSOR, KENNEBEC CO, ME, Destination: SUMMIT NATURAL GAS - PITTSTON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a2bd08f92d17baa31a5b87e97338fb1a = L.polyline(
+                [[44.44992, -69.70383], [44.07116, -69.96998]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_9df6cc45bc35c62b58c3ab07529a34e9 = L.marker(
+                [44.44992, -69.70383],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_9df6cc45bc35c62b58c3ab07529a34e9.bindTooltip(
+                `<div>
+                     Pipeline: SUMMIT NATURAL GAS - PITTSTON, Origin: SUMMIT NATURAL GAS - PITTSTON, Destination: MAINE NATGS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e06c72017ef1327be77d4c490793c3fb = L.marker(
+                [44.07116, -69.96998],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_e06c72017ef1327be77d4c490793c3fb.bindTooltip(
+                `<div>
+                     Pipeline: SUMMIT NATURAL GAS - PITTSTON, Origin: SUMMIT NATURAL GAS - PITTSTON, Destination: MAINE NATGS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6970b8d182ce941a188783ad4dd5f88d = L.polyline(
+                [[44.07116, -69.96998], [44.02357, -70.1655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_4f05bd6db15ed11df776f3f3ddee69eb = L.marker(
+                [44.07116, -69.96998],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_4f05bd6db15ed11df776f3f3ddee69eb.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NATGS, Origin: MAINE NATGS, Destination: NORTHERN UTILITIES-COTTON RD DELIVERY - ANDROSCOGGIN CO, ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b02a99656f597257827b7e0b9e456349 = L.marker(
+                [44.02357, -70.1655],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_b02a99656f597257827b7e0b9e456349.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NATGS, Origin: MAINE NATGS, Destination: NORTHERN UTILITIES-COTTON RD DELIVERY - ANDROSCOGGIN CO, ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f001f46347d2ab327fddf3e3ec53a39a = L.polyline(
+                [[44.02357, -70.1655], [43.90705, -70.00195]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_80651c4832ed9e70f9b407793b8d3b69 = L.marker(
+                [44.02357, -70.1655],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_80651c4832ed9e70f9b407793b8d3b69.bindTooltip(
+                `<div>
+                     Pipeline: NORTHERN UTILITIES-COTTON RD DELIVERY - ANDROSCOGGIN CO, ME, Origin: NORTHERN UTILITIES-COTTON RD DELIVERY - ANDROSCOGGIN CO, ME, Destination: MAINE NATURAL GAS _ POWNAL - CUMBERLAND CO. , ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d02c1eb8365070c84e07ddc3518594b = L.marker(
+                [43.90705, -70.00195],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_4d02c1eb8365070c84e07ddc3518594b.bindTooltip(
+                `<div>
+                     Pipeline: NORTHERN UTILITIES-COTTON RD DELIVERY - ANDROSCOGGIN CO, ME, Origin: NORTHERN UTILITIES-COTTON RD DELIVERY - ANDROSCOGGIN CO, ME, Destination: MAINE NATURAL GAS _ POWNAL - CUMBERLAND CO. , ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f03ee175bf03cab57d931a196b429b0f = L.polyline(
+                [[43.90705, -70.00195], [43.80797, -70.16362]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_c4b9b9082cf67fdb685ca5be0f34f18e = L.marker(
+                [43.90705, -70.00195],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_c4b9b9082cf67fdb685ca5be0f34f18e.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NATURAL GAS _ POWNAL - CUMBERLAND CO. , ME, Origin: MAINE NATURAL GAS _ POWNAL - CUMBERLAND CO. , ME, Destination: SUMMIT NATURAL GAS OF MAINE-CUMBERLAND
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1add55d673ff33f9db260cdef29e76f7 = L.marker(
+                [43.80797, -70.16362],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_1add55d673ff33f9db260cdef29e76f7.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NATURAL GAS _ POWNAL - CUMBERLAND CO. , ME, Origin: MAINE NATURAL GAS _ POWNAL - CUMBERLAND CO. , ME, Destination: SUMMIT NATURAL GAS OF MAINE-CUMBERLAND
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d6f810fff5f4beef0a83a6e68d5d5233 = L.polyline(
+                [[43.80797, -70.16362], [43.68498, -70.33403]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_24f6f1118798c0c809e0c2616bf48846 = L.marker(
+                [43.80797, -70.16362],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_24f6f1118798c0c809e0c2616bf48846.bindTooltip(
+                `<div>
+                     Pipeline: SUMMIT NATURAL GAS OF MAINE-CUMBERLAND, Origin: SUMMIT NATURAL GAS OF MAINE-CUMBERLAND, Destination: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07e01dc2035e1ab149395365772ea4ae = L.marker(
+                [43.68498, -70.33403],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_07e01dc2035e1ab149395365772ea4ae.bindTooltip(
+                `<div>
+                     Pipeline: SUMMIT NATURAL GAS OF MAINE-CUMBERLAND, Origin: SUMMIT NATURAL GAS OF MAINE-CUMBERLAND, Destination: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e82f23c79b0740bbbc818d39646f9797 = L.polyline(
+                [[43.68498, -70.33403], [43.67593, -70.40229]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_04f5c16c346cb0ee3b47fe52e2fe8ca7 = L.marker(
+                [43.68498, -70.33403],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_04f5c16c346cb0ee3b47fe52e2fe8ca7.bindTooltip(
+                `<div>
+                     Pipeline: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Origin: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Destination: MAINE NATGS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d7af67d5581ea45e3fa0175de94a4d2 = L.marker(
+                [43.67593, -70.40229],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_6d7af67d5581ea45e3fa0175de94a4d2.bindTooltip(
+                `<div>
+                     Pipeline: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Origin: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Destination: MAINE NATGS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0f6487b9c7133f7e1b31635a0748f630 = L.polyline(
+                [[43.67593, -70.40229], [43.23453, -70.8095]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_99d5d7ea5da8f603226d4c6d517d31c4 = L.marker(
+                [43.67593, -70.40229],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_99d5d7ea5da8f603226d4c6d517d31c4.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NATGS, Origin: MAINE NATGS, Destination: SOUTH BERWICK  GRANITE STATE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c8da39e7687eb570c1e97c6300af80d = L.marker(
+                [43.23453, -70.8095],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_6c8da39e7687eb570c1e97c6300af80d.bindTooltip(
+                `<div>
+                     Pipeline: MAINE NATGS, Origin: MAINE NATGS, Destination: SOUTH BERWICK  GRANITE STATE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_48117e1cd99066969a91b8d08b092004 = L.polyline(
+                [[43.23453, -70.8095], [43.19098, -70.79999]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_52a1cba85cf1a2b38362b05643bd763c = L.marker(
+                [43.23453, -70.8095],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_52a1cba85cf1a2b38362b05643bd763c.bindTooltip(
+                `<div>
+                     Pipeline: SOUTH BERWICK  GRANITE STATE, Origin: SOUTH BERWICK  GRANITE STATE, Destination: GRANITE STATE, ELIOT - YORK CO., ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b336c1efc7449827cb0978d47fe9ba57 = L.marker(
+                [43.19098, -70.79999],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_b336c1efc7449827cb0978d47fe9ba57.bindTooltip(
+                `<div>
+                     Pipeline: SOUTH BERWICK  GRANITE STATE, Origin: SOUTH BERWICK  GRANITE STATE, Destination: GRANITE STATE, ELIOT - YORK CO., ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ceb7a192627ef9683d627d0d6187c2a6 = L.polyline(
+                [[43.19098, -70.79999], [43.09496, -70.83421]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_6c1e2eeff5653e83005b7924e94e42f0 = L.marker(
+                [43.19098, -70.79999],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_6c1e2eeff5653e83005b7924e94e42f0.bindTooltip(
+                `<div>
+                     Pipeline: GRANITE STATE, ELIOT - YORK CO., ME, Origin: GRANITE STATE, ELIOT - YORK CO., ME, Destination: NEWINGTON POWER METER STATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5040a0e4778e8a36081d2f74991f0c2 = L.marker(
+                [43.09496, -70.83421],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_d5040a0e4778e8a36081d2f74991f0c2.bindTooltip(
+                `<div>
+                     Pipeline: GRANITE STATE, ELIOT - YORK CO., ME, Origin: GRANITE STATE, ELIOT - YORK CO., ME, Destination: NEWINGTON POWER METER STATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_04f53dfffb18ba692096830133ac4f39 = L.polyline(
+                [[43.09496, -70.83421], [43.10565, -70.8079]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_3ad50761a8ed6d66d63d43447b92bcfd = L.marker(
+                [43.09496, -70.83421],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_3ad50761a8ed6d66d63d43447b92bcfd.bindTooltip(
+                `<div>
+                     Pipeline: NEWINGTON POWER METER STATION, Origin: NEWINGTON POWER METER STATION, Destination: M&N G-P GYPSUM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0b8385c12215e24791096e1f0f939a8 = L.marker(
+                [43.10565, -70.8079],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_b0b8385c12215e24791096e1f0f939a8.bindTooltip(
+                `<div>
+                     Pipeline: NEWINGTON POWER METER STATION, Origin: NEWINGTON POWER METER STATION, Destination: M&N G-P GYPSUM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_895d96d1fa7368356274a662df95c7d6 = L.polyline(
+                [[43.10565, -70.8079], [43.10225, -70.81073]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_878a8b7f609edaa1b1597d3c97399646 = L.marker(
+                [43.10565, -70.8079],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_878a8b7f609edaa1b1597d3c97399646.bindTooltip(
+                `<div>
+                     Pipeline: M&N G-P GYPSUM, Origin: M&N G-P GYPSUM, Destination: GRANITE STATE NEWINGTON INTERCONNECTION,ROCKINGHAM CO.,NH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d0296b4a5e2792bc2e32ac2dcc83e7c = L.marker(
+                [43.10225, -70.81073],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_8d0296b4a5e2792bc2e32ac2dcc83e7c.bindTooltip(
+                `<div>
+                     Pipeline: M&N G-P GYPSUM, Origin: M&N G-P GYPSUM, Destination: GRANITE STATE NEWINGTON INTERCONNECTION,ROCKINGHAM CO.,NH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_847efb796dd9d2d1ac40914c17956acc = L.polyline(
+                [[43.10225, -70.81073], [43.10131, -70.81676]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_8a57a2295dcde026abd7c9ec24caf96b = L.marker(
+                [43.10225, -70.81073],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_8a57a2295dcde026abd7c9ec24caf96b.bindTooltip(
+                `<div>
+                     Pipeline: GRANITE STATE NEWINGTON INTERCONNECTION,ROCKINGHAM CO.,NH, Origin: GRANITE STATE NEWINGTON INTERCONNECTION,ROCKINGHAM CO.,NH, Destination: PSNH - GRANITE STATE NEWINGTON  ,ROCKINGHAM CO.,NH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fe89d7ff775f954017614d5192b3421 = L.marker(
+                [43.10131, -70.81676],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_2fe89d7ff775f954017614d5192b3421.bindTooltip(
+                `<div>
+                     Pipeline: GRANITE STATE NEWINGTON INTERCONNECTION,ROCKINGHAM CO.,NH, Origin: GRANITE STATE NEWINGTON INTERCONNECTION,ROCKINGHAM CO.,NH, Destination: PSNH - GRANITE STATE NEWINGTON  ,ROCKINGHAM CO.,NH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_57d98859517f9bcf86a26512d6cfc030 = L.polyline(
+                [[43.10131, -70.81676], [42.80798, -71.08579]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_51d59bfe4b339f88d2f260675ee0c30b = L.marker(
+                [43.10131, -70.81676],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_51d59bfe4b339f88d2f260675ee0c30b.bindTooltip(
+                `<div>
+                     Pipeline: PSNH - GRANITE STATE NEWINGTON  ,ROCKINGHAM CO.,NH, Origin: PSNH - GRANITE STATE NEWINGTON  ,ROCKINGHAM CO.,NH, Destination: NATIONAL GRID-HAVERHILL METER STATION (ESSEX,MA)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8311999d25f696424326e3e94b4600b = L.marker(
+                [42.80798, -71.08579],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_b8311999d25f696424326e3e94b4600b.bindTooltip(
+                `<div>
+                     Pipeline: PSNH - GRANITE STATE NEWINGTON  ,ROCKINGHAM CO.,NH, Origin: PSNH - GRANITE STATE NEWINGTON  ,ROCKINGHAM CO.,NH, Destination: NATIONAL GRID-HAVERHILL METER STATION (ESSEX,MA)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_53e688e9a9f1f9efd48c3084c25c9787 = L.polyline(
+                [[42.80798, -71.08579], [42.80079, -71.13325]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_23bc34717ee4526d9c91a06c1df0a31e = L.marker(
+                [42.80798, -71.08579],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_23bc34717ee4526d9c91a06c1df0a31e.bindTooltip(
+                `<div>
+                     Pipeline: NATIONAL GRID-HAVERHILL METER STATION (ESSEX,MA), Origin: NATIONAL GRID-HAVERHILL METER STATION (ESSEX,MA), Destination: TENNESSEE - HAVERHILL ESSEX CO. MA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20fbfb6ca4f8f0bb01198a6e89d0fd67 = L.marker(
+                [42.80079, -71.13325],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_20fbfb6ca4f8f0bb01198a6e89d0fd67.bindTooltip(
+                `<div>
+                     Pipeline: NATIONAL GRID-HAVERHILL METER STATION (ESSEX,MA), Origin: NATIONAL GRID-HAVERHILL METER STATION (ESSEX,MA), Destination: TENNESSEE - HAVERHILL ESSEX CO. MA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f0921867335191d3ef9068acbdee44f6 = L.polyline(
+                [[42.80079, -71.13325], [42.66066, -71.27617]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_7ba52e7410f7ba1900198215b239c526 = L.marker(
+                [42.80079, -71.13325],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_7ba52e7410f7ba1900198215b239c526.bindTooltip(
+                `<div>
+                     Pipeline: TENNESSEE - HAVERHILL ESSEX CO. MA, Origin: TENNESSEE - HAVERHILL ESSEX CO. MA, Destination: DRACUT INTERCONNECT - ESSEX CO. MA. (REC 30016)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10291bed7bfe434f41a0a001abe8d3cd = L.marker(
+                [42.66066, -71.27617],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_10291bed7bfe434f41a0a001abe8d3cd.bindTooltip(
+                `<div>
+                     Pipeline: TENNESSEE - HAVERHILL ESSEX CO. MA, Origin: TENNESSEE - HAVERHILL ESSEX CO. MA, Destination: DRACUT INTERCONNECT - ESSEX CO. MA. (REC 30016)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e4be9e5c15f06a973c64bfc4059e8124 = L.polyline(
+                [[42.66066, -71.27617], [42.71803, -71.23048]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_37fd98d644ab707f234a8ee883d049c9 = L.marker(
+                [42.66066, -71.27617],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_37fd98d644ab707f234a8ee883d049c9.bindTooltip(
+                `<div>
+                     Pipeline: DRACUT INTERCONNECT - ESSEX CO. MA. (REC 30016), Origin: DRACUT INTERCONNECT - ESSEX CO. MA. (REC 30016), Destination: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0e6d8c077b052544d6666f8b2b737bd = L.marker(
+                [42.71803, -71.23048],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_e0e6d8c077b052544d6666f8b2b737bd.bindTooltip(
+                `<div>
+                     Pipeline: DRACUT INTERCONNECT - ESSEX CO. MA. (REC 30016), Origin: DRACUT INTERCONNECT - ESSEX CO. MA. (REC 30016), Destination: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0cf0bb9d5ad49cac68e216ed3dfaa2d3 = L.polyline(
+                [[42.71803, -71.23048], [42.53986, -70.91235]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_02e650119c52e57b6b74d6879fc12104 = L.marker(
+                [42.71803, -71.23048],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_02e650119c52e57b6b74d6879fc12104.bindTooltip(
+                `<div>
+                     Pipeline: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Origin: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Destination: BEVERLY-SALEM ESSEX CO. MA (BI-DIR 30035) FLOW SOUTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5b745d1462b154a4b310a02da908e74 = L.marker(
+                [42.53986, -70.91235],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_c5b745d1462b154a4b310a02da908e74.bindTooltip(
+                `<div>
+                     Pipeline: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Origin: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Destination: BEVERLY-SALEM ESSEX CO. MA (BI-DIR 30035) FLOW SOUTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d4e4845630051df2337a768c9c56a978 = L.polyline(
+                [[42.53986, -70.91235], [42.53986, -70.91235]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_a7a80b0cf9aca7ac5ab5468bfbef5f2b = L.marker(
+                [42.53986, -70.91235],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_a7a80b0cf9aca7ac5ab5468bfbef5f2b.bindTooltip(
+                `<div>
+                     Pipeline: BEVERLY-SALEM ESSEX CO. MA (BI-DIR 30035) FLOW SOUTH, Origin: BEVERLY-SALEM ESSEX CO. MA (BI-DIR 30035) FLOW SOUTH, Destination: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_676229745108af9975120f44b360e8eb = L.marker(
+                [42.53986, -70.91235],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_676229745108af9975120f44b360e8eb.bindTooltip(
+                `<div>
+                     Pipeline: BEVERLY-SALEM ESSEX CO. MA (BI-DIR 30035) FLOW SOUTH, Origin: BEVERLY-SALEM ESSEX CO. MA (BI-DIR 30035) FLOW SOUTH, Destination: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0bca067707bbdfeb8cf11f5419c70749 = L.polyline(
+                [[42.53986, -70.91235], [42.53986, -70.91235]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_0a57693d7e4e61418cefbf2fe2791bdf = L.marker(
+                [42.53986, -70.91235],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_0a57693d7e4e61418cefbf2fe2791bdf.bindTooltip(
+                `<div>
+                     Pipeline: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH, Origin: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH, Destination: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b04cd70b111e25ff44c5160cbdb7656d = L.marker(
+                [42.53986, -70.91235],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_b04cd70b111e25ff44c5160cbdb7656d.bindTooltip(
+                `<div>
+                     Pipeline: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH, Origin: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH, Destination: BEVERLY-ESSEX CO. MA (BI-DIR 30025) FLOW NORTH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9d47454b436641454ab673c7cbb95b94 = L.polyline(
+                [[42.71803, -71.23048], [43.68498, -70.33403]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_ed363b022d5499f1527750a774bfaf4d = L.marker(
+                [42.71803, -71.23048],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_ed363b022d5499f1527750a774bfaf4d.bindTooltip(
+                `<div>
+                     Pipeline: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Origin: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Destination: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4fa3b98c9c362e9f13bcfda51a2eeb = L.marker(
+                [43.68498, -70.33403],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_5b4fa3b98c9c362e9f13bcfda51a2eeb.bindTooltip(
+                `<div>
+                     Pipeline: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Origin: DRACUT INTERCONNECT - ESSEX CO. MA (DEL 30001), Destination: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_203192a984957f269e4042ee6063f725 = L.polyline(
+                [[43.68498, -70.33403], [43.71592, -70.37529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_5491374bb2588ae6877372653ae32d88 = L.marker(
+                [43.68498, -70.33403],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_5491374bb2588ae6877372653ae32d88.bindTooltip(
+                `<div>
+                     Pipeline: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Origin: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Destination: WESTBROOK LATERAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5a2bea56fb8fb25dfc0ecdb9c51d66c = L.marker(
+                [43.71592, -70.37529],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_e5a2bea56fb8fb25dfc0ecdb9c51d66c.bindTooltip(
+                `<div>
+                     Pipeline: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Origin: WESTBROOK-GRANITE STATE ,CUMBERLAND CO.,ME, Destination: WESTBROOK LATERAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5363f68631a02fb956cdf942f6519fe4 = L.polyline(
+                [[43.71592, -70.37529], [43.24137, -70.7713]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_881f3e1744255af3f5eb0044e3d2e90b = L.marker(
+                [43.71592, -70.37529],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_881f3e1744255af3f5eb0044e3d2e90b.bindTooltip(
+                `<div>
+                     Pipeline: WESTBROOK LATERAL, Origin: WESTBROOK LATERAL, Destination: BUCKSPORT LATERAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b30c35f498b0ea561cf3e4d0f0694a86 = L.marker(
+                [43.24137, -70.7713],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_b30c35f498b0ea561cf3e4d0f0694a86.bindTooltip(
+                `<div>
+                     Pipeline: WESTBROOK LATERAL, Origin: WESTBROOK LATERAL, Destination: BUCKSPORT LATERAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7f5b613398fc6dd2dab15f982d7d7006 = L.polyline(
+                [[43.24137, -70.7713], [44.82414, -68.70775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_24bdefa3da5cd7742088f223a511f2c4 = L.marker(
+                [43.24137, -70.7713],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_24bdefa3da5cd7742088f223a511f2c4.bindTooltip(
+                `<div>
+                     Pipeline: BUCKSPORT LATERAL, Origin: BUCKSPORT LATERAL, Destination: VEAZIE LATERAL MAINLINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e851820f45996e0232e1436858950bd = L.marker(
+                [44.82414, -68.70775],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_2e851820f45996e0232e1436858950bd.bindTooltip(
+                `<div>
+                     Pipeline: BUCKSPORT LATERAL, Origin: BUCKSPORT LATERAL, Destination: VEAZIE LATERAL MAINLINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ef3cd2bfecbfe1a3190b79fc19e8c28d = L.polyline(
+                [[44.82414, -68.70775], [44.82414, -68.70775]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            var marker_9e051cf9ea96f4cb6aa4ca8453b00edb = L.marker(
+                [44.82414, -68.70775],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_9e051cf9ea96f4cb6aa4ca8453b00edb.bindTooltip(
+                `<div>
+                     Pipeline: VEAZIE LATERAL MAINLINE, Origin: VEAZIE LATERAL MAINLINE, Destination: BAILYVILLE ADJ. METER - WASHINGTON CO. ME. (REC. 30012)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65c019b4a19e0866401f21deb4796b1e = L.marker(
+                [44.82414, -68.70775],
+                {}
+            ).addTo(map_81b0387786c34f963842c3bc62b36339);
+        
+    
+            marker_65c019b4a19e0866401f21deb4796b1e.bindTooltip(
+                `<div>
+                     Pipeline: VEAZIE LATERAL MAINLINE, Origin: VEAZIE LATERAL MAINLINE, Destination: BAILYVILLE ADJ. METER - WASHINGTON CO. ME. (REC. 30012)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

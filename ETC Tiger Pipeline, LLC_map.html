@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ab80d7ec621f55224e1f1339791de31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ab80d7ec621f55224e1f1339791de31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ab80d7ec621f55224e1f1339791de31 = L.map(
+                "map_3ab80d7ec621f55224e1f1339791de31",
+                {
+                    center: [32.362333125000006, -92.144755625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_32ab09e8c1ad5c18016a68037f737481 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_32ab09e8c1ad5c18016a68037f737481.addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var poly_line_256b2eef93c9a4e505881857052e9cac = L.polyline(
+                [[32.14327, -94.26697], [32.32813, -92.45823]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_45d261603c21f98f1f00004e9150d4e6 = L.marker(
+                [32.14327, -94.26697],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_45d261603c21f98f1f00004e9150d4e6.bindTooltip(
+                `<div>
+                     Pipeline: CARTHAGE HUB, Origin: CARTHAGE HUB, Destination: TEXAS EASTERN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8394d1248ceda73edd9086bdcd9af8e4 = L.marker(
+                [32.32813, -92.45823],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_8394d1248ceda73edd9086bdcd9af8e4.bindTooltip(
+                `<div>
+                     Pipeline: CARTHAGE HUB, Origin: CARTHAGE HUB, Destination: TEXAS EASTERN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_70ec9665dca880c1fd1207ca7985ad6c = L.polyline(
+                [[32.32813, -92.45823], [32.32813, -92.45823]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_1a29521aaa94c4228ad4f1825ebe8790 = L.marker(
+                [32.32813, -92.45823],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_1a29521aaa94c4228ad4f1825ebe8790.bindTooltip(
+                `<div>
+                     Pipeline: TEXAS EASTERN, Origin: TEXAS EASTERN, Destination: TENNESSEE GAS PIPELINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b734c39427643e9f94538f90068e4d7 = L.marker(
+                [32.32813, -92.45823],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_3b734c39427643e9f94538f90068e4d7.bindTooltip(
+                `<div>
+                     Pipeline: TEXAS EASTERN, Origin: TEXAS EASTERN, Destination: TENNESSEE GAS PIPELINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_456da13195336ff5bd9cfd47028f05bb = L.polyline(
+                [[32.32813, -92.45823], [32.42904, -92.33903]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_ae9766a3c1abdfc5e3cb1295df27ff16 = L.marker(
+                [32.32813, -92.45823],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_ae9766a3c1abdfc5e3cb1295df27ff16.bindTooltip(
+                `<div>
+                     Pipeline: TENNESSEE GAS PIPELINE, Origin: TENNESSEE GAS PIPELINE, Destination: CADEVILLE GAS STORAGE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c861785f19e354b735a849c5baac585 = L.marker(
+                [32.42904, -92.33903],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_6c861785f19e354b735a849c5baac585.bindTooltip(
+                `<div>
+                     Pipeline: TENNESSEE GAS PIPELINE, Origin: TENNESSEE GAS PIPELINE, Destination: CADEVILLE GAS STORAGE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d23fb114ccb42b163abedb108ee210d1 = L.polyline(
+                [[32.42904, -92.33903], [32.32932, -92.06396]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_4770d81a2f43c3460c64a92d8327988b = L.marker(
+                [32.42904, -92.33903],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_4770d81a2f43c3460c64a92d8327988b.bindTooltip(
+                `<div>
+                     Pipeline: CADEVILLE GAS STORAGE, Origin: CADEVILLE GAS STORAGE, Destination: TEXAS GAS TRANSMISSION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8953101310b5a1daeb7c135fa90414e = L.marker(
+                [32.32932, -92.06396],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_c8953101310b5a1daeb7c135fa90414e.bindTooltip(
+                `<div>
+                     Pipeline: CADEVILLE GAS STORAGE, Origin: CADEVILLE GAS STORAGE, Destination: TEXAS GAS TRANSMISSION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9c4c0b105e9c6382020b8b8c28e3d837 = L.polyline(
+                [[32.32932, -92.06396], [32.35639, -91.8435]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_cfc1dfc02ad194b09a84fd6cf98dfb0e = L.marker(
+                [32.32932, -92.06396],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_cfc1dfc02ad194b09a84fd6cf98dfb0e.bindTooltip(
+                `<div>
+                     Pipeline: TEXAS GAS TRANSMISSION, Origin: TEXAS GAS TRANSMISSION, Destination: TRUNKLINE GAS PIPELINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a340fcb0921e24af38dd96587e70a73 = L.marker(
+                [32.35639, -91.8435],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_5a340fcb0921e24af38dd96587e70a73.bindTooltip(
+                `<div>
+                     Pipeline: TEXAS GAS TRANSMISSION, Origin: TEXAS GAS TRANSMISSION, Destination: TRUNKLINE GAS PIPELINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9afa0c8b4451ea51c5fe8645eba3bfb4 = L.polyline(
+                [[32.35639, -91.8435], [32.44197, -91.61998]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_d791aa207b8506572a20253760732aa6 = L.marker(
+                [32.35639, -91.8435],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_d791aa207b8506572a20253760732aa6.bindTooltip(
+                `<div>
+                     Pipeline: TRUNKLINE GAS PIPELINE, Origin: TRUNKLINE GAS PIPELINE, Destination: ANR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5292195ff3c10a400ef2b052f24443e6 = L.marker(
+                [32.44197, -91.61998],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_5292195ff3c10a400ef2b052f24443e6.bindTooltip(
+                `<div>
+                     Pipeline: TRUNKLINE GAS PIPELINE, Origin: TRUNKLINE GAS PIPELINE, Destination: ANR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0db966ca3da7f3c58818ff5adf7d4588 = L.polyline(
+                [[32.44197, -91.61998], [32.40809, -91.49799]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_58fe23ef777b2852e8d07c7285f9fd0b = L.marker(
+                [32.44197, -91.61998],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_58fe23ef777b2852e8d07c7285f9fd0b.bindTooltip(
+                `<div>
+                     Pipeline: ANR, Origin: ANR, Destination: COLUMBIA GULF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4eefb2b40bdf4f135a604fb751cf937 = L.marker(
+                [32.40809, -91.49799],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_a4eefb2b40bdf4f135a604fb751cf937.bindTooltip(
+                `<div>
+                     Pipeline: ANR, Origin: ANR, Destination: COLUMBIA GULF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_77fc930fb528d588301d367ec0542180 = L.polyline(
+                [[32.40809, -91.49799], [32.41192, -91.48728]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            var marker_fc80bb7345a521e1e1a72dbcc8c2afaf = L.marker(
+                [32.40809, -91.49799],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_fc80bb7345a521e1e1a72dbcc8c2afaf.bindTooltip(
+                `<div>
+                     Pipeline: COLUMBIA GULF, Origin: COLUMBIA GULF, Destination: SESH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f259bdaa28ef897be2e0269c3d913b1e = L.marker(
+                [32.41192, -91.48728],
+                {}
+            ).addTo(map_3ab80d7ec621f55224e1f1339791de31);
+        
+    
+            marker_f259bdaa28ef897be2e0269c3d913b1e.bindTooltip(
+                `<div>
+                     Pipeline: COLUMBIA GULF, Origin: COLUMBIA GULF, Destination: SESH
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_17ffec732d99b0ae96bd5f3ceb8ef826 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_17ffec732d99b0ae96bd5f3ceb8ef826" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_17ffec732d99b0ae96bd5f3ceb8ef826 = L.map(
+                "map_17ffec732d99b0ae96bd5f3ceb8ef826",
+                {
+                    center: [29.449180714285713, -82.76933321428572],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f43642320dd9534ca85e23773b67d1a8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f43642320dd9534ca85e23773b67d1a8.addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var poly_line_29b07c9d461742e8c163c49009b9fa8e = L.polyline(
+                [[31.201928, -85.766937], [32.944233, -85.935707]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_0667afdc6fc06e4beb2f61745189bc29 = L.marker(
+                [31.201928, -85.766937],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_0667afdc6fc06e4beb2f61745189bc29.bindTooltip(
+                `<div>
+                     Pipeline: T-85 POOL, Origin: T-85 POOL, Destination: TRANSCO PIPELINE HILLABEE, TALLAPOOSA CO, AL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42cb79bc980fac4c4cd3fd8fee3f7100 = L.marker(
+                [32.944233, -85.935707],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_42cb79bc980fac4c4cd3fd8fee3f7100.bindTooltip(
+                `<div>
+                     Pipeline: T-85 POOL, Origin: T-85 POOL, Destination: TRANSCO PIPELINE HILLABEE, TALLAPOOSA CO, AL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2f02fa2e5b5fb2fcf1c71a9b713b76d2 = L.polyline(
+                [[32.944233, -85.935707], [28.884884, -82.518584]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_9185f4e7857647ce362d1760abc8fdac = L.marker(
+                [32.944233, -85.935707],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_9185f4e7857647ce362d1760abc8fdac.bindTooltip(
+                `<div>
+                     Pipeline: TRANSCO PIPELINE HILLABEE, TALLAPOOSA CO, AL, Origin: TRANSCO PIPELINE HILLABEE, TALLAPOOSA CO, AL, Destination: FLORIDA GAS TRANSMISSION (FGT) CITRUS METER STATION. WEST POWER LI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a7040aae870c56601833b63c5c7ef09 = L.marker(
+                [28.884884, -82.518584],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_6a7040aae870c56601833b63c5c7ef09.bindTooltip(
+                `<div>
+                     Pipeline: TRANSCO PIPELINE HILLABEE, TALLAPOOSA CO, AL, Origin: TRANSCO PIPELINE HILLABEE, TALLAPOOSA CO, AL, Destination: FLORIDA GAS TRANSMISSION (FGT) CITRUS METER STATION. WEST POWER LI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_08164d1b02c9387f77fde2c7ea9941fe = L.polyline(
+                [[28.884884, -82.518584], [28.884884, -82.518584]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_d9398a66deeb9ce656b35414b68027d8 = L.marker(
+                [28.884884, -82.518584],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_d9398a66deeb9ce656b35414b68027d8.bindTooltip(
+                `<div>
+                     Pipeline: FLORIDA GAS TRANSMISSION (FGT) CITRUS METER STATION. WEST POWER LI, Origin: FLORIDA GAS TRANSMISSION (FGT) CITRUS METER STATION. WEST POWER LI, Destination: DUKE ENERGY - CITRUS COUNTY PLANT, CITRUS CO., FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe0499a649bfe59188c35698c0fba01e = L.marker(
+                [28.884884, -82.518584],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_fe0499a649bfe59188c35698c0fba01e.bindTooltip(
+                `<div>
+                     Pipeline: FLORIDA GAS TRANSMISSION (FGT) CITRUS METER STATION. WEST POWER LI, Origin: FLORIDA GAS TRANSMISSION (FGT) CITRUS METER STATION. WEST POWER LI, Destination: DUKE ENERGY - CITRUS COUNTY PLANT, CITRUS CO., FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_650589645013b8da8280b397ed1330b1 = L.polyline(
+                [[28.884884, -82.518584], [28.865501, -82.037932]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_73191cee174d5134a9b2f90f73d4e738 = L.marker(
+                [28.884884, -82.518584],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_73191cee174d5134a9b2f90f73d4e738.bindTooltip(
+                `<div>
+                     Pipeline: DUKE ENERGY - CITRUS COUNTY PLANT, CITRUS CO., FL, Origin: DUKE ENERGY - CITRUS COUNTY PLANT, CITRUS CO., FL, Destination: TECO WILDWOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93cd36669763fd463686f8f128f82a20 = L.marker(
+                [28.865501, -82.037932],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_93cd36669763fd463686f8f128f82a20.bindTooltip(
+                `<div>
+                     Pipeline: DUKE ENERGY - CITRUS COUNTY PLANT, CITRUS CO., FL, Origin: DUKE ENERGY - CITRUS COUNTY PLANT, CITRUS CO., FL, Destination: TECO WILDWOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_abf2c579ddea7e0b788c3770e62b6d40 = L.polyline(
+                [[28.865501, -82.037932], [28.810823, -81.877858]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_6cccde467d725338821bb428603e17c2 = L.marker(
+                [28.865501, -82.037932],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_6cccde467d725338821bb428603e17c2.bindTooltip(
+                `<div>
+                     Pipeline: TECO WILDWOOD, Origin: TECO WILDWOOD, Destination: CITY OF LEESBURG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1370515dbda734f0e4399eb22c83a96d = L.marker(
+                [28.810823, -81.877858],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_1370515dbda734f0e4399eb22c83a96d.bindTooltip(
+                `<div>
+                     Pipeline: TECO WILDWOOD, Origin: TECO WILDWOOD, Destination: CITY OF LEESBURG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ea68869c8254266cdf0813c6b6d20f12 = L.polyline(
+                [[28.810823, -81.877858], [28.101984, -81.075466]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_b8fed607f8f205a60aed1df5f19f4ca5 = L.marker(
+                [28.810823, -81.877858],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_b8fed607f8f205a60aed1df5f19f4ca5.bindTooltip(
+                `<div>
+                     Pipeline: CITY OF LEESBURG, Origin: CITY OF LEESBURG, Destination: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60bfc2f40e403949fb631ba758b4fb63 = L.marker(
+                [28.101984, -81.075466],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_60bfc2f40e403949fb631ba758b4fb63.bindTooltip(
+                `<div>
+                     Pipeline: CITY OF LEESBURG, Origin: CITY OF LEESBURG, Destination: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2d8c8cce5b77efeaf1f1fd5391b84423 = L.polyline(
+                [[28.101984, -81.075466], [28.101984, -81.075466]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            var marker_88abd21ee8a9c86640a0141cd93519ee = L.marker(
+                [28.101984, -81.075466],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_88abd21ee8a9c86640a0141cd93519ee.bindTooltip(
+                `<div>
+                     Pipeline: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL, Origin: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL, Destination: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bc585e16758f311f3fba674775da414 = L.marker(
+                [28.101984, -81.075466],
+                {}
+            ).addTo(map_17ffec732d99b0ae96bd5f3ceb8ef826);
+        
+    
+            marker_9bc585e16758f311f3fba674775da414.bindTooltip(
+                `<div>
+                     Pipeline: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL, Origin: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL, Destination: FLORIDA SOUTHEAST CONNECTION (FSC), OSCEOLA CO., FL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

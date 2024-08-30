@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b0df970fa3919dea4325e50c3428fa23 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b0df970fa3919dea4325e50c3428fa23" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b0df970fa3919dea4325e50c3428fa23 = L.map(
+                "map_b0df970fa3919dea4325e50c3428fa23",
+                {
+                    center: [31.493684473684212, -89.7376802631579],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a067760f8970c7a4fed59d9648b02709 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a067760f8970c7a4fed59d9648b02709.addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var poly_line_8946c67d36e1ab1b87740412d391506b = L.polyline(
+                [[32.41244, -91.4914], [32.40913, -91.48882]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_8d7a204b82de054936c23da4dd002786 = L.marker(
+                [32.41244, -91.4914],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_8d7a204b82de054936c23da4dd002786.bindTooltip(
+                `<div>
+                     Pipeline: CPGT - DELHI (42  - CENTER POINT P/L)., Origin: CPGT - DELHI (42  - CENTER POINT P/L)., Destination: GULF SOUTH - DELHI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6f59e68007a2723083a46b818778d3d = L.marker(
+                [32.40913, -91.48882],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_a6f59e68007a2723083a46b818778d3d.bindTooltip(
+                `<div>
+                     Pipeline: CPGT - DELHI (42  - CENTER POINT P/L)., Origin: CPGT - DELHI (42  - CENTER POINT P/L)., Destination: GULF SOUTH - DELHI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f4b9d9901f735dd0bd85b3ca90169011 = L.polyline(
+                [[32.40913, -91.48882], [32.40992, -91.49016]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_63d88e9cd983354f4b34ef9a9ab34860 = L.marker(
+                [32.40913, -91.48882],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_63d88e9cd983354f4b34ef9a9ab34860.bindTooltip(
+                `<div>
+                     Pipeline: GULF SOUTH - DELHI, Origin: GULF SOUTH - DELHI, Destination: ENERGY TRANSFER/TIGER PIPELINE, RICHLAND PARISH, LA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdd3aa12d95d9c4444bec728000d744d = L.marker(
+                [32.40992, -91.49016],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_cdd3aa12d95d9c4444bec728000d744d.bindTooltip(
+                `<div>
+                     Pipeline: GULF SOUTH - DELHI, Origin: GULF SOUTH - DELHI, Destination: ENERGY TRANSFER/TIGER PIPELINE, RICHLAND PARISH, LA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7533c0fb3c88ac24a0f04ccd71fa32f5 = L.polyline(
+                [[32.40992, -91.49016], [32.41096, -91.48922]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_2be3a01ddf85ae07b3acccceedbbfddc = L.marker(
+                [32.40992, -91.49016],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_2be3a01ddf85ae07b3acccceedbbfddc.bindTooltip(
+                `<div>
+                     Pipeline: ENERGY TRANSFER/TIGER PIPELINE, RICHLAND PARISH, LA, Origin: ENERGY TRANSFER/TIGER PIPELINE, RICHLAND PARISH, LA, Destination: COLUMBIA GULF - DELHI (REC - 83004)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d2df693395faec8975694b8de9fe9f8 = L.marker(
+                [32.41096, -91.48922],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_3d2df693395faec8975694b8de9fe9f8.bindTooltip(
+                `<div>
+                     Pipeline: ENERGY TRANSFER/TIGER PIPELINE, RICHLAND PARISH, LA, Origin: ENERGY TRANSFER/TIGER PIPELINE, RICHLAND PARISH, LA, Destination: COLUMBIA GULF - DELHI (REC - 83004)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e614e4df4c5f1d0292c67ffe9584090b = L.polyline(
+                [[32.41096, -91.48922], [32.41244, -91.4914]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_dcd62989e9a2ea30ba8eb0e78044b7c2 = L.marker(
+                [32.41096, -91.48922],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_dcd62989e9a2ea30ba8eb0e78044b7c2.bindTooltip(
+                `<div>
+                     Pipeline: COLUMBIA GULF - DELHI (REC - 83004), Origin: COLUMBIA GULF - DELHI (REC - 83004), Destination: CPGT - DELHI (24  - CENTER POINT P/L)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_118f4fc673a85db89f9e53ddc2c2316b = L.marker(
+                [32.41244, -91.4914],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_118f4fc673a85db89f9e53ddc2c2316b.bindTooltip(
+                `<div>
+                     Pipeline: COLUMBIA GULF - DELHI (REC - 83004), Origin: COLUMBIA GULF - DELHI (REC - 83004), Destination: CPGT - DELHI (24  - CENTER POINT P/L)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ad115ae52faacc8bbb8adc0fef699d91 = L.polyline(
+                [[32.41244, -91.4914], [32.4064, -91.29234]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_0b826c927d08b17545498ff246ef105f = L.marker(
+                [32.41244, -91.4914],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_0b826c927d08b17545498ff246ef105f.bindTooltip(
+                `<div>
+                     Pipeline: CPGT - DELHI (24  - CENTER POINT P/L), Origin: CPGT - DELHI (24  - CENTER POINT P/L), Destination: GULF CROSSING, LA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2832e94a58e46fbaf6cc7b4185ae3bd = L.marker(
+                [32.4064, -91.29234],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_b2832e94a58e46fbaf6cc7b4185ae3bd.bindTooltip(
+                `<div>
+                     Pipeline: CPGT - DELHI (24  - CENTER POINT P/L), Origin: CPGT - DELHI (24  - CENTER POINT P/L), Destination: GULF CROSSING, LA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e9586eb01e0724a30e8565146c315807 = L.polyline(
+                [[32.4064, -91.29234], [31.93354, -90.53611]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_b5ef0b43c9cd5446fc59b25ff139c01a = L.marker(
+                [32.4064, -91.29234],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_b5ef0b43c9cd5446fc59b25ff139c01a.bindTooltip(
+                `<div>
+                     Pipeline: GULF CROSSING, LA, Origin: GULF CROSSING, LA, Destination: SESH TO TE AT 73584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e6d0302364f09eeffcc51a8c2fa0b79 = L.marker(
+                [31.93354, -90.53611],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_1e6d0302364f09eeffcc51a8c2fa0b79.bindTooltip(
+                `<div>
+                     Pipeline: GULF CROSSING, LA, Origin: GULF CROSSING, LA, Destination: SESH TO TE AT 73584
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bc6f88555a5bebd0fb8cd32fa28715ff = L.polyline(
+                [[31.93354, -90.53611], [31.69596, -89.90416]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_0021393ab7bc52bc6611016933ca0d73 = L.marker(
+                [31.93354, -90.53611],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_0021393ab7bc52bc6611016933ca0d73.bindTooltip(
+                `<div>
+                     Pipeline: SESH TO TE AT 73584, Origin: SESH TO TE AT 73584, Destination: SONAT - GWINVILLE (REC - 83006)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e61960a23d0d3e4bf9ed515cb9ebcf1d = L.marker(
+                [31.69596, -89.90416],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_e61960a23d0d3e4bf9ed515cb9ebcf1d.bindTooltip(
+                `<div>
+                     Pipeline: SESH TO TE AT 73584, Origin: SESH TO TE AT 73584, Destination: SONAT - GWINVILLE (REC - 83006)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_052ced85ce149a473f2b230bac205225 = L.polyline(
+                [[31.69596, -89.90416], [31.60075, -89.70021]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_7ce4c05341205b65d6a2e5380eef9ba1 = L.marker(
+                [31.69596, -89.90416],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_7ce4c05341205b65d6a2e5380eef9ba1.bindTooltip(
+                `<div>
+                     Pipeline: SONAT - GWINVILLE (REC - 83006), Origin: SONAT - GWINVILLE (REC - 83006), Destination: MISSISSIPPI HUB-BOND GAS STORAGE, COVINGTON, MS (INJ)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0a58a9127ebf846284006ffb1866443 = L.marker(
+                [31.60075, -89.70021],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_e0a58a9127ebf846284006ffb1866443.bindTooltip(
+                `<div>
+                     Pipeline: SONAT - GWINVILLE (REC - 83006), Origin: SONAT - GWINVILLE (REC - 83006), Destination: MISSISSIPPI HUB-BOND GAS STORAGE, COVINGTON, MS (INJ)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_96b81d5b5259a33b1d195332553ad152 = L.polyline(
+                [[31.60075, -89.70021], [31.5337, -89.58369]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_6550d137ec3ee6dba434060c2ef98f31 = L.marker(
+                [31.60075, -89.70021],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_6550d137ec3ee6dba434060c2ef98f31.bindTooltip(
+                `<div>
+                     Pipeline: MISSISSIPPI HUB-BOND GAS STORAGE, COVINGTON, MS (INJ), Origin: MISSISSIPPI HUB-BOND GAS STORAGE, COVINGTON, MS (INJ), Destination: TRANSCO COLLINS (DEL - 83107)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f5dfb57a73156e5c71bf86ed4a90de0 = L.marker(
+                [31.5337, -89.58369],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_6f5dfb57a73156e5c71bf86ed4a90de0.bindTooltip(
+                `<div>
+                     Pipeline: MISSISSIPPI HUB-BOND GAS STORAGE, COVINGTON, MS (INJ), Origin: MISSISSIPPI HUB-BOND GAS STORAGE, COVINGTON, MS (INJ), Destination: TRANSCO COLLINS (DEL - 83107)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5e76cbc3c88c05d048422b19ed768ec5 = L.polyline(
+                [[31.5337, -89.58369], [31.43118, -89.28426]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_133a7699d86facd25819e1e62dd3aee5 = L.marker(
+                [31.5337, -89.58369],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_133a7699d86facd25819e1e62dd3aee5.bindTooltip(
+                `<div>
+                     Pipeline: TRANSCO COLLINS (DEL - 83107), Origin: TRANSCO COLLINS (DEL - 83107), Destination: SOUTHCROSS ENERGY/MOSELLE DELIVERY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f0734f8bc2dfcaa6dc217f6036d69a6 = L.marker(
+                [31.43118, -89.28426],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_1f0734f8bc2dfcaa6dc217f6036d69a6.bindTooltip(
+                `<div>
+                     Pipeline: TRANSCO COLLINS (DEL - 83107), Origin: TRANSCO COLLINS (DEL - 83107), Destination: SOUTHCROSS ENERGY/MOSELLE DELIVERY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_51bd7af83448996f279b4dde39e78b35 = L.polyline(
+                [[31.43118, -89.28426], [31.37909, -89.18631]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_f6b7beaf298bb92edf668cee661dc239 = L.marker(
+                [31.43118, -89.28426],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_f6b7beaf298bb92edf668cee661dc239.bindTooltip(
+                `<div>
+                     Pipeline: SOUTHCROSS ENERGY/MOSELLE DELIVERY, Origin: SOUTHCROSS ENERGY/MOSELLE DELIVERY, Destination: GULF SOUTH PETAL GAS STORAGE (INJ)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc3cffc22df911870cdc9cd5f8ecbc22 = L.marker(
+                [31.37909, -89.18631],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_cc3cffc22df911870cdc9cd5f8ecbc22.bindTooltip(
+                `<div>
+                     Pipeline: SOUTHCROSS ENERGY/MOSELLE DELIVERY, Origin: SOUTHCROSS ENERGY/MOSELLE DELIVERY, Destination: GULF SOUTH PETAL GAS STORAGE (INJ)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_83227d1942573430b938382b432ca18c = L.polyline(
+                [[31.37909, -89.18631], [31.37472, -89.17766]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_f06a9ec92e6096f5cf0846049392d15a = L.marker(
+                [31.37909, -89.18631],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_f06a9ec92e6096f5cf0846049392d15a.bindTooltip(
+                `<div>
+                     Pipeline: GULF SOUTH PETAL GAS STORAGE (INJ), Origin: GULF SOUTH PETAL GAS STORAGE (INJ), Destination: TGP (DEL - 83108)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00354ee66d70723adad9ed92b005bad0 = L.marker(
+                [31.37472, -89.17766],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_00354ee66d70723adad9ed92b005bad0.bindTooltip(
+                `<div>
+                     Pipeline: GULF SOUTH PETAL GAS STORAGE (INJ), Origin: GULF SOUTH PETAL GAS STORAGE (INJ), Destination: TGP (DEL - 83108)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9dc41e5c2505fdc842aa47a9d5c4b5af = L.polyline(
+                [[31.37472, -89.17766], [31.18281, -88.78425]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_30c9de1033807b8d1ff6131d5671d564 = L.marker(
+                [31.37472, -89.17766],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_30c9de1033807b8d1ff6131d5671d564.bindTooltip(
+                `<div>
+                     Pipeline: TGP (DEL - 83108), Origin: TGP (DEL - 83108), Destination: SG RESOURCES MISSISSIPPI L.L.C. (DEL - 83109)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85adf3c71bc4231e8ff9434e8690eab3 = L.marker(
+                [31.18281, -88.78425],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_85adf3c71bc4231e8ff9434e8690eab3.bindTooltip(
+                `<div>
+                     Pipeline: TGP (DEL - 83108), Origin: TGP (DEL - 83108), Destination: SG RESOURCES MISSISSIPPI L.L.C. (DEL - 83109)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6ed71416217717da51922fa7d218ca78 = L.polyline(
+                [[31.18281, -88.78425], [30.97631, -88.69001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_796d24c006c1cf334aa3a326e6924470 = L.marker(
+                [31.18281, -88.78425],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_796d24c006c1cf334aa3a326e6924470.bindTooltip(
+                `<div>
+                     Pipeline: SG RESOURCES MISSISSIPPI L.L.C. (DEL - 83109), Origin: SG RESOURCES MISSISSIPPI L.L.C. (DEL - 83109), Destination: FGT - LUCEDALE (DEL - 83110
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7266a0c4e122993be0dda92652808ddc = L.marker(
+                [30.97631, -88.69001],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_7266a0c4e122993be0dda92652808ddc.bindTooltip(
+                `<div>
+                     Pipeline: SG RESOURCES MISSISSIPPI L.L.C. (DEL - 83109), Origin: SG RESOURCES MISSISSIPPI L.L.C. (DEL - 83109), Destination: FGT - LUCEDALE (DEL - 83110
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ddf497f7e36e1d4540464804d2bdf9b2 = L.polyline(
+                [[30.97631, -88.69001], [30.39405, -88.18613]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_a8681625ab75c8ad96add8c94a8adc6f = L.marker(
+                [30.97631, -88.69001],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_a8681625ab75c8ad96add8c94a8adc6f.bindTooltip(
+                `<div>
+                     Pipeline: FGT - LUCEDALE (DEL - 83110, Origin: FGT - LUCEDALE (DEL - 83110, Destination: FGT STA 44 (FGT AIRPORT ROAD) CODEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7cce94460833060cc468def61531a2e = L.marker(
+                [30.39405, -88.18613],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_d7cce94460833060cc468def61531a2e.bindTooltip(
+                `<div>
+                     Pipeline: FGT - LUCEDALE (DEL - 83110, Origin: FGT - LUCEDALE (DEL - 83110, Destination: FGT STA 44 (FGT AIRPORT ROAD) CODEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1463b125676f888a5a9c63606123a970 = L.polyline(
+                [[30.39405, -88.18613], [30.52451, -88.48409]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_1d847449b9b68a67db56573e01e03faf = L.marker(
+                [30.39405, -88.18613],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_1d847449b9b68a67db56573e01e03faf.bindTooltip(
+                `<div>
+                     Pipeline: FGT STA 44 (FGT AIRPORT ROAD) CODEN, Origin: FGT STA 44 (FGT AIRPORT ROAD) CODEN, Destination: PLANT DANIEL, MISSISSIPPI POWER COMPANY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adbe96d93a974a1dc860eb0592e03df4 = L.marker(
+                [30.52451, -88.48409],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_adbe96d93a974a1dc860eb0592e03df4.bindTooltip(
+                `<div>
+                     Pipeline: FGT STA 44 (FGT AIRPORT ROAD) CODEN, Origin: FGT STA 44 (FGT AIRPORT ROAD) CODEN, Destination: PLANT DANIEL, MISSISSIPPI POWER COMPANY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_94688b53dce7c329c26aa91028a234e8 = L.polyline(
+                [[30.52451, -88.48409], [30.50724, -88.22221]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_f6c12bfdd4199bf7e7fecf181646f150 = L.marker(
+                [30.52451, -88.48409],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_f6c12bfdd4199bf7e7fecf181646f150.bindTooltip(
+                `<div>
+                     Pipeline: PLANT DANIEL, MISSISSIPPI POWER COMPANY, Origin: PLANT DANIEL, MISSISSIPPI POWER COMPANY, Destination: THEODORE PLANT - MOBILE GAS SERVICES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48a200250c8f00aa020b8a7ec9eababa = L.marker(
+                [30.50724, -88.22221],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_48a200250c8f00aa020b8a7ec9eababa.bindTooltip(
+                `<div>
+                     Pipeline: PLANT DANIEL, MISSISSIPPI POWER COMPANY, Origin: PLANT DANIEL, MISSISSIPPI POWER COMPANY, Destination: THEODORE PLANT - MOBILE GAS SERVICES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aca2fc5fb4812ef6c132b41db9d0ba02 = L.polyline(
+                [[30.50724, -88.22221], [30.39405, -88.18613]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_fa67f5836d0a15d2b973b5a386547c8a = L.marker(
+                [30.50724, -88.22221],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_fa67f5836d0a15d2b973b5a386547c8a.bindTooltip(
+                `<div>
+                     Pipeline: THEODORE PLANT - MOBILE GAS SERVICES, Origin: THEODORE PLANT - MOBILE GAS SERVICES, Destination: TRANSCO - CODEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1a05c50d0934ffd6da574f3200f9ec7 = L.marker(
+                [30.39405, -88.18613],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_a1a05c50d0934ffd6da574f3200f9ec7.bindTooltip(
+                `<div>
+                     Pipeline: THEODORE PLANT - MOBILE GAS SERVICES, Origin: THEODORE PLANT - MOBILE GAS SERVICES, Destination: TRANSCO - CODEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_87e2525f08174a910b89c1102a014765 = L.polyline(
+                [[30.39405, -88.18613], [30.39405, -88.18613]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            var marker_5cbd618d38a1d5d3cd5010a4ece7f2ce = L.marker(
+                [30.39405, -88.18613],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_5cbd618d38a1d5d3cd5010a4ece7f2ce.bindTooltip(
+                `<div>
+                     Pipeline: TRANSCO - CODEN, Origin: TRANSCO - CODEN, Destination: TRANSCO - CODEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fdf9d546f761b44e33fa6387774c35c = L.marker(
+                [30.39405, -88.18613],
+                {}
+            ).addTo(map_b0df970fa3919dea4325e50c3428fa23);
+        
+    
+            marker_2fdf9d546f761b44e33fa6387774c35c.bindTooltip(
+                `<div>
+                     Pipeline: TRANSCO - CODEN, Origin: TRANSCO - CODEN, Destination: TRANSCO - CODEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

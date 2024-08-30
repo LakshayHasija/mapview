@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2d7d542db6b1fa2332a2240e2166d79d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2d7d542db6b1fa2332a2240e2166d79d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2d7d542db6b1fa2332a2240e2166d79d = L.map(
+                "map_2d7d542db6b1fa2332a2240e2166d79d",
+                {
+                    center: [28.15245516129032, -82.72233370967743],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b588edcd679f5b443cf0f6d8ba638a2d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b588edcd679f5b443cf0f6d8ba638a2d.addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var poly_line_86b6d790b70f34c1b861a27efb29ab43 = L.polyline(
+                [[30.38923, -88.14386], [30.38923, -88.14386]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_c4e0eb17827561744829b0dbfea563ab = L.marker(
+                [30.38923, -88.14386],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_c4e0eb17827561744829b0dbfea563ab.bindTooltip(
+                `<div>
+                     Pipeline: DIGP 20" - Rock Road, Origin: DIGP 20" - Rock Road, Destination: Williams Mobile Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_274deb9184f33c98a9f94078ede38196 = L.marker(
+                [30.38923, -88.14386],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_274deb9184f33c98a9f94078ede38196.bindTooltip(
+                `<div>
+                     Pipeline: DIGP 20" - Rock Road, Origin: DIGP 20" - Rock Road, Destination: Williams Mobile Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7eb2d367150369a048f88dd22335b743 = L.polyline(
+                [[30.38923, -88.14386], [30.38957, -88.1668]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_0af88295b0688fe44a2235d52acc182a = L.marker(
+                [30.38923, -88.14386],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_0af88295b0688fe44a2235d52acc182a.bindTooltip(
+                `<div>
+                     Pipeline: Williams Mobile Bay, Origin: Williams Mobile Bay, Destination: Gulfsouth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d5bafc95bd884f00a435c59a92d3b62 = L.marker(
+                [30.38957, -88.1668],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_8d5bafc95bd884f00a435c59a92d3b62.bindTooltip(
+                `<div>
+                     Pipeline: Williams Mobile Bay, Origin: Williams Mobile Bay, Destination: Gulfsouth
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_54474a88c35d39e6fb10ef039dbb0737 = L.polyline(
+                [[30.38957, -88.1668], [30.36282, -88.48598]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_9d4511504e9df30ebca36d13f930eeae = L.marker(
+                [30.38957, -88.1668],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_9d4511504e9df30ebca36d13f930eeae.bindTooltip(
+                `<div>
+                     Pipeline: Gulfsouth, Origin: Gulfsouth, Destination: Destin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7efdc22149167241dcde951460b7aacf = L.marker(
+                [30.36282, -88.48598],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_7efdc22149167241dcde951460b7aacf.bindTooltip(
+                `<div>
+                     Pipeline: Gulfsouth, Origin: Gulfsouth, Destination: Destin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5155b1ca6d959f69f98ff75b98b55663 = L.polyline(
+                [[30.36282, -88.48598], [30.37838, -88.19251]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_0d6d54ee15b82a2d91ce71591b05f369 = L.marker(
+                [30.36282, -88.48598],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_0d6d54ee15b82a2d91ce71591b05f369.bindTooltip(
+                `<div>
+                     Pipeline: Destin, Origin: Destin, Destination: SESH Coden GNGS IN - 095
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02a2398c9f4dc4871b535ab7449cd7ba = L.marker(
+                [30.37838, -88.19251],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_02a2398c9f4dc4871b535ab7449cd7ba.bindTooltip(
+                `<div>
+                     Pipeline: Destin, Origin: Destin, Destination: SESH Coden GNGS IN - 095
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c5fa6f2ad75fc7d0a247e0c374dc42a5 = L.polyline(
+                [[30.37838, -88.19251], [27.62167, -82.51149]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_5f4699433f9a560d6da9c580ae901ca4 = L.marker(
+                [30.37838, -88.19251],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_5f4699433f9a560d6da9c580ae901ca4.bindTooltip(
+                `<div>
+                     Pipeline: SESH Coden GNGS IN - 095, Origin: SESH Coden GNGS IN - 095, Destination: Duke - Bartow Plant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bbb683613065701c0e74c2595056148 = L.marker(
+                [27.62167, -82.51149],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_3bbb683613065701c0e74c2595056148.bindTooltip(
+                `<div>
+                     Pipeline: SESH Coden GNGS IN - 095, Origin: SESH Coden GNGS IN - 095, Destination: Duke - Bartow Plant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_62cd143c21b3a066f25ee41f3b2f8ec4 = L.polyline(
+                [[27.62167, -82.51149], [27.84539, -82.6001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_2fe95660f13a1b1ce9f9b4bc1a56ad1e = L.marker(
+                [27.62167, -82.51149],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_2fe95660f13a1b1ce9f9b4bc1a56ad1e.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Bartow Plant, Origin: Duke - Bartow Plant, Destination: Peoples-Weedon Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eeb9c8f5202d723cd5413f7d50eb6677 = L.marker(
+                [27.84539, -82.6001],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_eeb9c8f5202d723cd5413f7d50eb6677.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Bartow Plant, Origin: Duke - Bartow Plant, Destination: Peoples-Weedon Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_209616500cc9460e51fe4874e3153dc9 = L.polyline(
+                [[27.84539, -82.6001], [27.8688, -82.60757]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_4c73b47b2e8a5e576695ba83eb4ff283 = L.marker(
+                [27.84539, -82.6001],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_4c73b47b2e8a5e576695ba83eb4ff283.bindTooltip(
+                `<div>
+                     Pipeline: Peoples-Weedon Island, Origin: Peoples-Weedon Island, Destination: Peoples Port Manatee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5d2ad335186a341f6fb76455946d1a2 = L.marker(
+                [27.8688, -82.60757],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_c5d2ad335186a341f6fb76455946d1a2.bindTooltip(
+                `<div>
+                     Pipeline: Peoples-Weedon Island, Origin: Peoples-Weedon Island, Destination: Peoples Port Manatee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4282d4987997ad91c2e58ad1f810c4b3 = L.polyline(
+                [[27.8688, -82.60757], [27.60248, -82.35565]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_9a27449bd3d9a508fa7bae99eb94c353 = L.marker(
+                [27.8688, -82.60757],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_9a27449bd3d9a508fa7bae99eb94c353.bindTooltip(
+                `<div>
+                     Pipeline: Peoples Port Manatee, Origin: Peoples Port Manatee, Destination: Peoples - Bayside
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_000228226fe1e3b9a4ee1e62cbce7ea9 = L.marker(
+                [27.60248, -82.35565],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_000228226fe1e3b9a4ee1e62cbce7ea9.bindTooltip(
+                `<div>
+                     Pipeline: Peoples Port Manatee, Origin: Peoples Port Manatee, Destination: Peoples - Bayside
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aadc6f9e86c1c7f9744ea1a22d24750f = L.polyline(
+                [[27.60248, -82.35565], [27.58149, -82.20298]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_b98342f7cd74aaea8c15ed1bf5a8e178 = L.marker(
+                [27.60248, -82.35565],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_b98342f7cd74aaea8c15ed1bf5a8e178.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Bayside, Origin: Peoples - Bayside, Destination: FP&L Parrish Manatee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_911a739c0bfd84e144e8a063e4c823c6 = L.marker(
+                [27.58149, -82.20298],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_911a739c0bfd84e144e8a063e4c823c6.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Bayside, Origin: Peoples - Bayside, Destination: FP&L Parrish Manatee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5c409686cc0b876af3357e6a6a99b850 = L.polyline(
+                [[27.58149, -82.20298], [27.59794, -82.33828]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_bb71c5a056edcc77cb5ebcc2e67d2a03 = L.marker(
+                [27.58149, -82.20298],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_bb71c5a056edcc77cb5ebcc2e67d2a03.bindTooltip(
+                `<div>
+                     Pipeline: FP&L Parrish Manatee, Origin: FP&L Parrish Manatee, Destination: Peoples - S. Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a77a6488046f1fe1e1071a6ce47b5aad = L.marker(
+                [27.59794, -82.33828],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_a77a6488046f1fe1e1071a6ce47b5aad.bindTooltip(
+                `<div>
+                     Pipeline: FP&L Parrish Manatee, Origin: FP&L Parrish Manatee, Destination: Peoples - S. Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e88c6aba62668e8bd570456f9efd0a33 = L.polyline(
+                [[27.59794, -82.33828], [27.61703, -81.94308]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_15b12012a7402518a9c3707e0a9b766b = L.marker(
+                [27.59794, -82.33828],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_15b12012a7402518a9c3707e0a9b766b.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - S. Hills, Origin: Peoples - S. Hills, Destination: FGT Hardee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2d71d5c5d53923894ffbbf364206a78 = L.marker(
+                [27.61703, -81.94308],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_b2d71d5c5d53923894ffbbf364206a78.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - S. Hills, Origin: Peoples - S. Hills, Destination: FGT Hardee
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a7c38c63af0eafca7ff251265dfb1ed5 = L.polyline(
+                [[27.61703, -81.94308], [27.61707, -81.93811]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_99dc169050fba1a447dfca59ced9fb97 = L.marker(
+                [27.61703, -81.94308],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_99dc169050fba1a447dfca59ced9fb97.bindTooltip(
+                `<div>
+                     Pipeline: FGT Hardee, Origin: FGT Hardee, Destination: Peoples - Vandolah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8202389d1ad6acfdf3e04421777ae9f = L.marker(
+                [27.61707, -81.93811],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_c8202389d1ad6acfdf3e04421777ae9f.bindTooltip(
+                `<div>
+                     Pipeline: FGT Hardee, Origin: FGT Hardee, Destination: Peoples - Vandolah
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d9eca7ec5600757b2cc251be3c7dfa59 = L.polyline(
+                [[27.61707, -81.93811], [27.6262, -81.89585]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_81c954eb9850b0d9e8154e6f572ed442 = L.marker(
+                [27.61707, -81.93811],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_81c954eb9850b0d9e8154e6f572ed442.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Vandolah, Origin: Peoples - Vandolah, Destination: Midulla Plant (MGS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35fc1884851282ddcd6d506807c6e6b0 = L.marker(
+                [27.6262, -81.89585],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_35fc1884851282ddcd6d506807c6e6b0.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Vandolah, Origin: Peoples - Vandolah, Destination: Midulla Plant (MGS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_76c84b91e396b4cf87aa7bc8980eca50 = L.polyline(
+                [[27.6262, -81.89585], [27.62384, -81.90336]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_92f2ad0c4d555c902076de46fe78428d = L.marker(
+                [27.6262, -81.89585],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_92f2ad0c4d555c902076de46fe78428d.bindTooltip(
+                `<div>
+                     Pipeline: Midulla Plant (MGS), Origin: Midulla Plant (MGS), Destination: Hardee Pwr Partners
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84866477d777e03f4b689ab8d81a2af8 = L.marker(
+                [27.62384, -81.90336],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_84866477d777e03f4b689ab8d81a2af8.bindTooltip(
+                `<div>
+                     Pipeline: Midulla Plant (MGS), Origin: Midulla Plant (MGS), Destination: Hardee Pwr Partners
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_988f063297513417f5ef2fe00ff1ba4e = L.polyline(
+                [[27.62384, -81.90336], [27.78943, -81.89097]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_5b142036f5d8704f34446239a61cc6ef = L.marker(
+                [27.62384, -81.90336],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_5b142036f5d8704f34446239a61cc6ef.bindTooltip(
+                `<div>
+                     Pipeline: Hardee Pwr Partners, Origin: Hardee Pwr Partners, Destination: Duke - Hines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16a5c55116c650c9b136c01f5f0aaeb5 = L.marker(
+                [27.78943, -81.89097],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_16a5c55116c650c9b136c01f5f0aaeb5.bindTooltip(
+                `<div>
+                     Pipeline: Hardee Pwr Partners, Origin: Hardee Pwr Partners, Destination: Duke - Hines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c671ed0abd1ec32bb19ac537da59e7ad = L.polyline(
+                [[27.78943, -81.89097], [27.7504, -81.85441]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_55a19c9f8524e77025ef438933187a51 = L.marker(
+                [27.78943, -81.89097],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_55a19c9f8524e77025ef438933187a51.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Hines, Origin: Duke - Hines, Destination: Duke - Tiger Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8cc845e4ae2b62af62587cba70d2c9e = L.marker(
+                [27.7504, -81.85441],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_f8cc845e4ae2b62af62587cba70d2c9e.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Hines, Origin: Duke - Hines, Destination: Duke - Tiger Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c2cb618149c405de2d1c6d3b17751db4 = L.polyline(
+                [[27.7504, -81.85441], [28.05162, -81.80721]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_fae52a6bfa1804d2900a8f4048f8f0ee = L.marker(
+                [27.7504, -81.85441],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_fae52a6bfa1804d2900a8f4048f8f0ee.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Tiger Bay, Origin: Duke - Tiger Bay, Destination: Duke - Osprey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c33af708550d3e1376d5680d438a00c = L.marker(
+                [28.05162, -81.80721],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_2c33af708550d3e1376d5680d438a00c.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Tiger Bay, Origin: Duke - Tiger Bay, Destination: Duke - Osprey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e291556629a8cf1fc79827d0dea245dd = L.polyline(
+                [[28.05162, -81.80721], [28.05141, -81.80114]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_2d480188c64b23cab9ea2a6721ec171a = L.marker(
+                [28.05162, -81.80721],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_2d480188c64b23cab9ea2a6721ec171a.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Osprey, Origin: Duke - Osprey, Destination: Auburndale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f768f05341f46866ddaa4e91222ce255 = L.marker(
+                [28.05141, -81.80114],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_f768f05341f46866ddaa4e91222ce255.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Osprey, Origin: Duke - Osprey, Destination: Auburndale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1be7bc96644f345a8b10ef0c8c52bccb = L.polyline(
+                [[28.05141, -81.80114], [28.0804, -81.92185]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_806bee7ed7fc4475c19fa2ce4dbc9197 = L.marker(
+                [28.05141, -81.80114],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_806bee7ed7fc4475c19fa2ce4dbc9197.bindTooltip(
+                `<div>
+                     Pipeline: Auburndale, Origin: Auburndale, Destination: Lakeland - McIntosh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c6da2c5d2ce5240a0b1adc9079dcd27 = L.marker(
+                [28.0804, -81.92185],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_4c6da2c5d2ce5240a0b1adc9079dcd27.bindTooltip(
+                `<div>
+                     Pipeline: Auburndale, Origin: Auburndale, Destination: Lakeland - McIntosh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2b449ca6b98e67aa0b95dac03e2a2a66 = L.polyline(
+                [[28.0804, -81.92185], [28.0807, -81.83315]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_b3214c2f10a5382e7fc5ca9621d8540f = L.marker(
+                [28.0804, -81.92185],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_b3214c2f10a5382e7fc5ca9621d8540f.bindTooltip(
+                `<div>
+                     Pipeline: Lakeland - McIntosh, Origin: Lakeland - McIntosh, Destination: Peoples - Combee Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_510fbc209aa5d328eea625605422e981 = L.marker(
+                [28.0807, -81.83315],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_510fbc209aa5d328eea625605422e981.bindTooltip(
+                `<div>
+                     Pipeline: Lakeland - McIntosh, Origin: Lakeland - McIntosh, Destination: Peoples - Combee Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_098155ade33f191300e547ae144e07d7 = L.polyline(
+                [[28.0807, -81.83315], [27.86137, -81.82519]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_7f4b9a36ddb421c18d7113741d97b732 = L.marker(
+                [28.0807, -81.83315],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_7f4b9a36ddb421c18d7113741d97b732.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Combee Road, Origin: Peoples - Combee Road, Destination: CFG - Clear Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5354e697641e851a918bd3a8c6cc35b = L.marker(
+                [27.86137, -81.82519],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_c5354e697641e851a918bd3a8c6cc35b.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Combee Road, Origin: Peoples - Combee Road, Destination: CFG - Clear Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6a9bd109d0d0a6175f61b453c5244bdf = L.polyline(
+                [[27.86137, -81.82519], [28.2155, -81.62661]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_ee4eaa5374959c88a12b1439e72c38b6 = L.marker(
+                [27.86137, -81.82519],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_ee4eaa5374959c88a12b1439e72c38b6.bindTooltip(
+                `<div>
+                     Pipeline: CFG - Clear Springs, Origin: CFG - Clear Springs, Destination: CFG - Baseball City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9661d1d50b168da9372431222750689 = L.marker(
+                [28.2155, -81.62661],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_e9661d1d50b168da9372431222750689.bindTooltip(
+                `<div>
+                     Pipeline: CFG - Clear Springs, Origin: CFG - Clear Springs, Destination: CFG - Baseball City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a22590adf3843cfda3c109dd6938cb6e = L.polyline(
+                [[28.2155, -81.62661], [28.26286, -81.55067]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_2c94e0458c06a92616d8fb9310b8a1e6 = L.marker(
+                [28.2155, -81.62661],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_2c94e0458c06a92616d8fb9310b8a1e6.bindTooltip(
+                `<div>
+                     Pipeline: CFG - Baseball City, Origin: CFG - Baseball City, Destination: Duke - Interces. City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be53d940c18cc986cc058907b5a86600 = L.marker(
+                [28.26286, -81.55067],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_be53d940c18cc986cc058907b5a86600.bindTooltip(
+                `<div>
+                     Pipeline: CFG - Baseball City, Origin: CFG - Baseball City, Destination: Duke - Interces. City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4effd55d74da6c7991483926be5ca4dc = L.polyline(
+                [[28.26286, -81.55067], [27.66483, -81.51575]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_6db4591ff8f37e936c1eff846d672019 = L.marker(
+                [28.26286, -81.55067],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_6db4591ff8f37e936c1eff846d672019.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Interces. City, Origin: Duke - Interces. City, Destination: SABAL TRAIL - OSCEOLA IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c0d4ee06455fdb68bbe870ebb294314 = L.marker(
+                [27.66483, -81.51575],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_5c0d4ee06455fdb68bbe870ebb294314.bindTooltip(
+                `<div>
+                     Pipeline: Duke - Interces. City, Origin: Duke - Interces. City, Destination: SABAL TRAIL - OSCEOLA IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_495fcfb96683b3723aa3bf2cc98f258f = L.polyline(
+                [[27.66483, -81.51575], [28.28307, -81.58826]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_4dbdc23b0281a6583620b3ddeb04c7ee = L.marker(
+                [27.66483, -81.51575],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_4dbdc23b0281a6583620b3ddeb04c7ee.bindTooltip(
+                `<div>
+                     Pipeline: SABAL TRAIL - OSCEOLA IN, Origin: SABAL TRAIL - OSCEOLA IN, Destination: FGT - Osceola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa5cf740d913e8217331fc37e764d7e2 = L.marker(
+                [28.28307, -81.58826],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_aa5cf740d913e8217331fc37e764d7e2.bindTooltip(
+                `<div>
+                     Pipeline: SABAL TRAIL - OSCEOLA IN, Origin: SABAL TRAIL - OSCEOLA IN, Destination: FGT - Osceola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_37f8318018f9b2eff5c777438e2a121d = L.polyline(
+                [[28.28307, -81.58826], [28.28307, -81.58826]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_7d252d96cc4973b6dce759b388129938 = L.marker(
+                [28.28307, -81.58826],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_7d252d96cc4973b6dce759b388129938.bindTooltip(
+                `<div>
+                     Pipeline: FGT - Osceola, Origin: FGT - Osceola, Destination: Cane Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe6dcf4e341a2189e5865f2c1c80620a = L.marker(
+                [28.28307, -81.58826],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_fe6dcf4e341a2189e5865f2c1c80620a.bindTooltip(
+                `<div>
+                     Pipeline: FGT - Osceola, Origin: FGT - Osceola, Destination: Cane Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d8b6f048a6f45239ca5730808d26bd07 = L.polyline(
+                [[28.28307, -81.58826], [28.28307, -81.58826]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_d4bd214265cab319421939ea16425315 = L.marker(
+                [28.28307, -81.58826],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_d4bd214265cab319421939ea16425315.bindTooltip(
+                `<div>
+                     Pipeline: Cane Island, Origin: Cane Island, Destination: Peoples - Reunion
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85514fa4abadc4bca50909fb8c437949 = L.marker(
+                [28.28307, -81.58826],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_85514fa4abadc4bca50909fb8c437949.bindTooltip(
+                `<div>
+                     Pipeline: Cane Island, Origin: Cane Island, Destination: Peoples - Reunion
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5931403decbc336fc1206f6f2ea5fbaa = L.polyline(
+                [[28.28307, -81.58826], [27.06155, -80.55679]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_12d9b460167a7b112720eded9dd1cc7e = L.marker(
+                [28.28307, -81.58826],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_12d9b460167a7b112720eded9dd1cc7e.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Reunion, Origin: Peoples - Reunion, Destination: FP&L Martin Plant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aad98feb68e49734b4474d388628258b = L.marker(
+                [27.06155, -80.55679],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_aad98feb68e49734b4474d388628258b.bindTooltip(
+                `<div>
+                     Pipeline: Peoples - Reunion, Origin: Peoples - Reunion, Destination: FP&L Martin Plant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b7cd37f633beaa53cacb14cea509aca0 = L.polyline(
+                [[27.06155, -80.55679], [27.66483, -81.51575]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_10f71277f543d84d864cf496375e37b6 = L.marker(
+                [27.06155, -80.55679],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_10f71277f543d84d864cf496375e37b6.bindTooltip(
+                `<div>
+                     Pipeline: FP&L Martin Plant, Origin: FP&L Martin Plant, Destination: AMARYLISS to FGT M4809
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bc0649aa5cc64e8b28bc606f9c84cb7 = L.marker(
+                [27.66483, -81.51575],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_4bc0649aa5cc64e8b28bc606f9c84cb7.bindTooltip(
+                `<div>
+                     Pipeline: FP&L Martin Plant, Origin: FP&L Martin Plant, Destination: AMARYLISS to FGT M4809
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_348286d4bf267c3b6c9281d570e5cf3a = L.polyline(
+                [[27.66483, -81.51575], [26.68365, -80.38035]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_97445f593224f5a3a5ca097db0ee601b = L.marker(
+                [27.66483, -81.51575],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_97445f593224f5a3a5ca097db0ee601b.bindTooltip(
+                `<div>
+                     Pipeline: AMARYLISS to FGT M4809, Origin: AMARYLISS to FGT M4809, Destination: West County
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb8c7a1db48394dbd187e66f1ff49edf = L.marker(
+                [26.68365, -80.38035],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_cb8c7a1db48394dbd187e66f1ff49edf.bindTooltip(
+                `<div>
+                     Pipeline: AMARYLISS to FGT M4809, Origin: AMARYLISS to FGT M4809, Destination: West County
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b223c7c40a9b273866f9c1e34e551449 = L.polyline(
+                [[26.68365, -80.38035], [26.68365, -80.38035]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            var marker_e460690c8a215768b5c30111d7264912 = L.marker(
+                [26.68365, -80.38035],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_e460690c8a215768b5c30111d7264912.bindTooltip(
+                `<div>
+                     Pipeline: West County, Origin: West County, Destination: West County
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a24a0af6ce6b823cb16e3a997f3a6a4 = L.marker(
+                [26.68365, -80.38035],
+                {}
+            ).addTo(map_2d7d542db6b1fa2332a2240e2166d79d);
+        
+    
+            marker_0a24a0af6ce6b823cb16e3a997f3a6a4.bindTooltip(
+                `<div>
+                     Pipeline: West County, Origin: West County, Destination: West County
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

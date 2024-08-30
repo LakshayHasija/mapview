@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ef5ba759bb466556164a71341f9da648 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ef5ba759bb466556164a71341f9da648" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ef5ba759bb466556164a71341f9da648 = L.map(
+                "map_ef5ba759bb466556164a71341f9da648",
+                {
+                    center: [45.86448725, -119.125263],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_09159a9126439aa563a9e43c146cc9c6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_09159a9126439aa563a9e43c146cc9c6.addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var poly_line_1dd457429cacdbebb82d2ade5e141321 = L.polyline(
+                [[49.00081, -116.18819], [48.3687, -116.53466]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_0bb137498b68751b5b18a80780af2251 = L.marker(
+                [49.00081, -116.18819],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_0bb137498b68751b5b18a80780af2251.bindTooltip(
+                `<div>
+                     Pipeline: Kingsgate, Origin: Kingsgate, Destination: Schweitzer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_349ae9dbfce94e38f9e2d286e48a8e03 = L.marker(
+                [48.3687, -116.53466],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_349ae9dbfce94e38f9e2d286e48a8e03.bindTooltip(
+                `<div>
+                     Pipeline: Kingsgate, Origin: Kingsgate, Destination: Schweitzer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ea708e481204a51216e09c62e224f78d = L.polyline(
+                [[48.3687, -116.53466], [48.29545, -116.58072]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_41db4358158221d65705b2652db2841a = L.marker(
+                [48.3687, -116.53466],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_41db4358158221d65705b2652db2841a.bindTooltip(
+                `<div>
+                     Pipeline: Schweitzer, Origin: Schweitzer, Destination: Sandpoint
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce8fba35af99b44cdb26d5d3cac16312 = L.marker(
+                [48.29545, -116.58072],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_ce8fba35af99b44cdb26d5d3cac16312.bindTooltip(
+                `<div>
+                     Pipeline: Schweitzer, Origin: Schweitzer, Destination: Sandpoint
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_96ec07eb80d712a25ae0c768a5b13380 = L.polyline(
+                [[48.29545, -116.58072], [47.94684, -116.71412]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_4d0bbbda16e457a320dec8118244e13b = L.marker(
+                [48.29545, -116.58072],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_4d0bbbda16e457a320dec8118244e13b.bindTooltip(
+                `<div>
+                     Pipeline: Sandpoint, Origin: Sandpoint, Destination: Athol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4902c279af2e7fba0ae26283e55fb05a = L.marker(
+                [47.94684, -116.71412],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_4902c279af2e7fba0ae26283e55fb05a.bindTooltip(
+                `<div>
+                     Pipeline: Sandpoint, Origin: Sandpoint, Destination: Athol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c3b0e4fef07b5b6842d68cde7cc445c8 = L.polyline(
+                [[47.94684, -116.71412], [47.78609, -116.92236]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_72fbe03770eb0fc995b026014c9d1320 = L.marker(
+                [47.94684, -116.71412],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_72fbe03770eb0fc995b026014c9d1320.bindTooltip(
+                `<div>
+                     Pipeline: Athol, Origin: Athol, Destination: Lancaster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88a06ec17844b40edab6c95cd00c8ff0 = L.marker(
+                [47.78609, -116.92236],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_88a06ec17844b40edab6c95cd00c8ff0.bindTooltip(
+                `<div>
+                     Pipeline: Athol, Origin: Athol, Destination: Lancaster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_821002f5a626a6cd3a58e9c4c544753a = L.polyline(
+                [[47.78609, -116.92236], [47.55231, -117.20214]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_69f95feb016336a57ae5cf7ea4cc6377 = L.marker(
+                [47.78609, -116.92236],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_69f95feb016336a57ae5cf7ea4cc6377.bindTooltip(
+                `<div>
+                     Pipeline: Lancaster, Origin: Lancaster, Destination: MICA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6235690562168e90b18900e525599f7d = L.marker(
+                [47.55231, -117.20214],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_6235690562168e90b18900e525599f7d.bindTooltip(
+                `<div>
+                     Pipeline: Lancaster, Origin: Lancaster, Destination: MICA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d4e3d9ee05741cbbbc0ca1573a002fe3 = L.polyline(
+                [[47.55231, -117.20214], [47.40455, -117.3436]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_3f1683ee4691e4619f3a4b78722dee49 = L.marker(
+                [47.55231, -117.20214],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_3f1683ee4691e4619f3a4b78722dee49.bindTooltip(
+                `<div>
+                     Pipeline: MICA, Origin: MICA, Destination: Spangle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2488e4ed96e075c9d86bef516d4add82 = L.marker(
+                [47.40455, -117.3436],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_2488e4ed96e075c9d86bef516d4add82.bindTooltip(
+                `<div>
+                     Pipeline: MICA, Origin: MICA, Destination: Spangle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_68923c490841d1df3d0bbe301de9f406 = L.polyline(
+                [[47.40455, -117.3436], [47.23844, -117.4125]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_6589718a0034534a9840409a4b864d9e = L.marker(
+                [47.40455, -117.3436],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_6589718a0034534a9840409a4b864d9e.bindTooltip(
+                `<div>
+                     Pipeline: Spangle, Origin: Spangle, Destination: Rosalia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6bf45882bb46fd0bae5281117a5ed77 = L.marker(
+                [47.23844, -117.4125],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_b6bf45882bb46fd0bae5281117a5ed77.bindTooltip(
+                `<div>
+                     Pipeline: Spangle, Origin: Spangle, Destination: Rosalia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_569f7859f841bea59d5500a436e24403 = L.polyline(
+                [[47.23844, -117.4125], [46.93546, -117.73508]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_fc752f1848a588a6078f6b610866d726 = L.marker(
+                [47.23844, -117.4125],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_fc752f1848a588a6078f6b610866d726.bindTooltip(
+                `<div>
+                     Pipeline: Rosalia, Origin: Rosalia, Destination: Palouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dec09c58c6411d403140fe3c1404e30e = L.marker(
+                [46.93546, -117.73508],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_dec09c58c6411d403140fe3c1404e30e.bindTooltip(
+                `<div>
+                     Pipeline: Rosalia, Origin: Rosalia, Destination: Palouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9165e75c813333613572fe8960acb5d8 = L.polyline(
+                [[46.93546, -117.73508], [46.80733, -117.87399]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_aa8f63d3f2b1fa263651412e340eb50a = L.marker(
+                [46.93546, -117.73508],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_aa8f63d3f2b1fa263651412e340eb50a.bindTooltip(
+                `<div>
+                     Pipeline: Palouse, Origin: Palouse, Destination: Lacrosse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ce32ad2dc56ebadf8ba604e291c9e22 = L.marker(
+                [46.80733, -117.87399],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_1ce32ad2dc56ebadf8ba604e291c9e22.bindTooltip(
+                `<div>
+                     Pipeline: Palouse, Origin: Palouse, Destination: Lacrosse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_911b7e6cce887507a7a1eebcfdb58f18 = L.polyline(
+                [[46.80733, -117.87399], [46.10806, -118.91889]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_0390b23c464fbc08694f38c0fabfa9b8 = L.marker(
+                [46.80733, -117.87399],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_0390b23c464fbc08694f38c0fabfa9b8.bindTooltip(
+                `<div>
+                     Pipeline: Lacrosse, Origin: Lacrosse, Destination: ATTALIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dc497bd9d8c008b0ee39ad6cb28b518 = L.marker(
+                [46.10806, -118.91889],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_0dc497bd9d8c008b0ee39ad6cb28b518.bindTooltip(
+                `<div>
+                     Pipeline: Lacrosse, Origin: Lacrosse, Destination: ATTALIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7dcd3471292b8cf80facc3c7e5119379 = L.polyline(
+                [[46.10806, -118.91889], [45.84579, -119.66212]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_283c369d1a39428c07b958e701ca35de = L.marker(
+                [46.10806, -118.91889],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_283c369d1a39428c07b958e701ca35de.bindTooltip(
+                `<div>
+                     Pipeline: ATTALIA, Origin: ATTALIA, Destination: CSBRR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b14638e9d82ceadf0e592361e8f5c99d = L.marker(
+                [45.84579, -119.66212],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_b14638e9d82ceadf0e592361e8f5c99d.bindTooltip(
+                `<div>
+                     Pipeline: ATTALIA, Origin: ATTALIA, Destination: CSBRR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4d4067af9b7a8fa7f517084ae71f58da = L.polyline(
+                [[45.84579, -119.66212], [44.61066, -121.02642]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_355b31597717248fbacbb035f80f0c50 = L.marker(
+                [45.84579, -119.66212],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_355b31597717248fbacbb035f80f0c50.bindTooltip(
+                `<div>
+                     Pipeline: CSBRR, Origin: CSBRR, Destination: Madras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17bc57a738b16c6cb13a250509c33d02 = L.marker(
+                [44.61066, -121.02642],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_17bc57a738b16c6cb13a250509c33d02.bindTooltip(
+                `<div>
+                     Pipeline: CSBRR, Origin: CSBRR, Destination: Madras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3fb382333598fa0eaf4a427966e65415 = L.polyline(
+                [[44.61066, -121.02642], [44.35254, -121.07582]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_933c0a851263d56bc5f485971d52620a = L.marker(
+                [44.61066, -121.02642],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_933c0a851263d56bc5f485971d52620a.bindTooltip(
+                `<div>
+                     Pipeline: Madras, Origin: Madras, Destination: Prineville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63c650a03917a3c970e341ed52830a11 = L.marker(
+                [44.35254, -121.07582],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_63c650a03917a3c970e341ed52830a11.bindTooltip(
+                `<div>
+                     Pipeline: Madras, Origin: Madras, Destination: Prineville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b8149f167c2b67cbb7fba76157d44464 = L.polyline(
+                [[44.35254, -121.07582], [44.25561, -121.11851]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_2d24af42b8ad6379eb2ec3ebb01deace = L.marker(
+                [44.35254, -121.07582],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_2d24af42b8ad6379eb2ec3ebb01deace.bindTooltip(
+                `<div>
+                     Pipeline: Prineville, Origin: Prineville, Destination: Redmond
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ef05d71824c041cfc9694bd606be94a = L.marker(
+                [44.25561, -121.11851],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_5ef05d71824c041cfc9694bd606be94a.bindTooltip(
+                `<div>
+                     Pipeline: Prineville, Origin: Prineville, Destination: Redmond
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d485fd62e42e576a34d7091d0231660c = L.polyline(
+                [[44.25561, -121.11851], [44.05203, -121.24053]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_90be5ec14117268b65aef29c881a5ab1 = L.marker(
+                [44.25561, -121.11851],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_90be5ec14117268b65aef29c881a5ab1.bindTooltip(
+                `<div>
+                     Pipeline: Redmond, Origin: Redmond, Destination: Bend
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd79a57d23e91f7a78f23506fcb3b4d0 = L.marker(
+                [44.05203, -121.24053],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_bd79a57d23e91f7a78f23506fcb3b4d0.bindTooltip(
+                `<div>
+                     Pipeline: Redmond, Origin: Redmond, Destination: Bend
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c28461f372848cedab34a08e877bc570 = L.polyline(
+                [[44.05203, -121.24053], [43.87851, -121.3839]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_2d0bdc25c5e2266723638e81f1344f69 = L.marker(
+                [44.05203, -121.24053],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_2d0bdc25c5e2266723638e81f1344f69.bindTooltip(
+                `<div>
+                     Pipeline: Bend, Origin: Bend, Destination: Stearns
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6690c90a517a7e0c6ebc1d0fe070183 = L.marker(
+                [43.87851, -121.3839],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_d6690c90a517a7e0c6ebc1d0fe070183.bindTooltip(
+                `<div>
+                     Pipeline: Bend, Origin: Bend, Destination: Stearns
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_73b0c623ffd55e10ddfd735c0795098c = L.polyline(
+                [[43.87851, -121.3839], [43.65777, -121.48667]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_11917c2133cd8030b2f183fb39326c7a = L.marker(
+                [43.87851, -121.3839],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_11917c2133cd8030b2f183fb39326c7a.bindTooltip(
+                `<div>
+                     Pipeline: Stearns, Origin: Stearns, Destination: Lapine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3235b11983944d28c7e09f7a1546ffd = L.marker(
+                [43.65777, -121.48667],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_b3235b11983944d28c7e09f7a1546ffd.bindTooltip(
+                `<div>
+                     Pipeline: Stearns, Origin: Stearns, Destination: Lapine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f751f272d64fb5a15579ce7e2376e38e = L.polyline(
+                [[43.65777, -121.48667], [43.47944, -121.67952]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_76831b99ea3195f4a2e02ceb9fd98c16 = L.marker(
+                [43.65777, -121.48667],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_76831b99ea3195f4a2e02ceb9fd98c16.bindTooltip(
+                `<div>
+                     Pipeline: Lapine, Origin: Lapine, Destination: Gilchrist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99b204d12696d515b951c4fee0d1e42a = L.marker(
+                [43.47944, -121.67952],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_99b204d12696d515b951c4fee0d1e42a.bindTooltip(
+                `<div>
+                     Pipeline: Lapine, Origin: Lapine, Destination: Gilchrist
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_910e3080f95005f36a4b5921d04ec1f1 = L.polyline(
+                [[43.47944, -121.67952], [43.21549, -121.82045]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_cdbd1e789b5380f711d23b4a6b0b3f16 = L.marker(
+                [43.47944, -121.67952],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_cdbd1e789b5380f711d23b4a6b0b3f16.bindTooltip(
+                `<div>
+                     Pipeline: Gilchrist, Origin: Gilchrist, Destination: Chemult
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e135ed258ddf921b6b5cac70c69f205 = L.marker(
+                [43.21549, -121.82045],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_9e135ed258ddf921b6b5cac70c69f205.bindTooltip(
+                `<div>
+                     Pipeline: Gilchrist, Origin: Gilchrist, Destination: Chemult
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a59c02325731ee925b7f2f44a0551b38 = L.polyline(
+                [[43.21549, -121.82045], [41.99654, -121.35833]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            var marker_813042a4fd50c884971725a0e2702720 = L.marker(
+                [43.21549, -121.82045],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_813042a4fd50c884971725a0e2702720.bindTooltip(
+                `<div>
+                     Pipeline: Chemult, Origin: Chemult, Destination: Malin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5ceb0234ee3115827ec1f3b09ad84bf = L.marker(
+                [41.99654, -121.35833],
+                {}
+            ).addTo(map_ef5ba759bb466556164a71341f9da648);
+        
+    
+            marker_d5ceb0234ee3115827ec1f3b09ad84bf.bindTooltip(
+                `<div>
+                     Pipeline: Chemult, Origin: Chemult, Destination: Malin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

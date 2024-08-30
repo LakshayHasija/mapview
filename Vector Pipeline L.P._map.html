@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_483417473335ca0b7e2e597a2aabd92a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_483417473335ca0b7e2e597a2aabd92a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_483417473335ca0b7e2e597a2aabd92a = L.map(
+                "map_483417473335ca0b7e2e597a2aabd92a",
+                {
+                    center: [42.0610846875, -85.4739590625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c92cb921ae2156b6c692e137f7fced7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2c92cb921ae2156b6c692e137f7fced7.addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var poly_line_2d8f320090ddda149e3e59b3734b2fa3 = L.polyline(
+                [[41.45855, -88.12242], [40.63312, -89.39853]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_2cea976dc82d74252284b7f1872154be = L.marker(
+                [41.45855, -88.12242],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_2cea976dc82d74252284b7f1872154be.bindTooltip(
+                `<div>
+                     Pipeline: Joliet Compressor, Origin: Joliet Compressor, Destination: Peoples Smith Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4aef8e13a845c9bae00a075d6b714d05 = L.marker(
+                [40.63312, -89.39853],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_4aef8e13a845c9bae00a075d6b714d05.bindTooltip(
+                `<div>
+                     Pipeline: Joliet Compressor, Origin: Joliet Compressor, Destination: Peoples Smith Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_50b840df842eb0b8d9864da1706a24f7 = L.polyline(
+                [[40.63312, -89.39853], [41.42956, -87.61405]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_1a3a79bb8d034492c831b3e163f25015 = L.marker(
+                [40.63312, -89.39853],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_1a3a79bb8d034492c831b3e163f25015.bindTooltip(
+                `<div>
+                     Pipeline: Peoples Smith Road, Origin: Peoples Smith Road, Destination: Crete
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36931c5cb9bb434afaa64001b40223a4 = L.marker(
+                [41.42956, -87.61405],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_36931c5cb9bb434afaa64001b40223a4.bindTooltip(
+                `<div>
+                     Pipeline: Peoples Smith Road, Origin: Peoples Smith Road, Destination: Crete
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_38da3545a29b4b924977587dbb903e06 = L.polyline(
+                [[41.42956, -87.61405], [41.45241, -87.36302]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_364abd932dd011b6ce1834a28f31293c = L.marker(
+                [41.42956, -87.61405],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_364abd932dd011b6ce1834a28f31293c.bindTooltip(
+                `<div>
+                     Pipeline: Crete, Origin: Crete, Destination: Crown Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_381e0173f1c1ef6d6d306d9324d1d2a4 = L.marker(
+                [41.45241, -87.36302],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_381e0173f1c1ef6d6d306d9324d1d2a4.bindTooltip(
+                `<div>
+                     Pipeline: Crete, Origin: Crete, Destination: Crown Point
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bda41a526d89ae96293dcfefedc1688e = L.polyline(
+                [[41.45241, -87.36302], [41.65087, -86.75535]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_d3cf02824e8406723d45ee73f41d575a = L.marker(
+                [41.45241, -87.36302],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_d3cf02824e8406723d45ee73f41d575a.bindTooltip(
+                `<div>
+                     Pipeline: Crown Point, Origin: Crown Point, Destination: La Porte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0eda37ce207ed6a0778e76b80bb31e6c = L.marker(
+                [41.65087, -86.75535],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_0eda37ce207ed6a0778e76b80bb31e6c.bindTooltip(
+                `<div>
+                     Pipeline: Crown Point, Origin: Crown Point, Destination: La Porte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e6a7bcc5839ec4a13f78a2a945c0f366 = L.polyline(
+                [[41.65087, -86.75535], [41.68965, -86.63504]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_55523f36dcd7030cb2916212665524da = L.marker(
+                [41.65087, -86.75535],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_55523f36dcd7030cb2916212665524da.bindTooltip(
+                `<div>
+                     Pipeline: La Porte, Origin: La Porte, Destination: Springville Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46c1269ceec83d339acdab6feecbbd09 = L.marker(
+                [41.68965, -86.63504],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_46c1269ceec83d339acdab6feecbbd09.bindTooltip(
+                `<div>
+                     Pipeline: La Porte, Origin: La Porte, Destination: Springville Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aa6c51ccd11e69c2fc7e57eb8e695fc2 = L.polyline(
+                [[41.68965, -86.63504], [41.91171, -86.01001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_918b389c19b1cb36f6c63e2ae1fcfebb = L.marker(
+                [41.68965, -86.63504],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_918b389c19b1cb36f6c63e2ae1fcfebb.bindTooltip(
+                `<div>
+                     Pipeline: Springville Compressor, Origin: Springville Compressor, Destination: Cassopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2c6349828212ad985e461df5ff840ea = L.marker(
+                [41.91171, -86.01001],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_f2c6349828212ad985e461df5ff840ea.bindTooltip(
+                `<div>
+                     Pipeline: Springville Compressor, Origin: Springville Compressor, Destination: Cassopolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_604918ca0e73519d588a60315e48561f = L.polyline(
+                [[41.91171, -86.01001], [42.25107, -84.93203]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_8647cf1f46820a700c64685b3fa01e26 = L.marker(
+                [41.91171, -86.01001],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_8647cf1f46820a700c64685b3fa01e26.bindTooltip(
+                `<div>
+                     Pipeline: Cassopolis, Origin: Cassopolis, Destination: Athens Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1db86b694f4b2f2036fa84ddb1da51c9 = L.marker(
+                [42.25107, -84.93203],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_1db86b694f4b2f2036fa84ddb1da51c9.bindTooltip(
+                `<div>
+                     Pipeline: Cassopolis, Origin: Cassopolis, Destination: Athens Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e3298b5a4c0d96143c58e4af783ee19a = L.polyline(
+                [[42.25107, -84.93203], [42.27226, -84.96331]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_9e1ae654bb6888671cf59500091c5cb6 = L.marker(
+                [42.25107, -84.93203],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_9e1ae654bb6888671cf59500091c5cb6.bindTooltip(
+                `<div>
+                     Pipeline: Athens Compressor, Origin: Athens Compressor, Destination: MGU-Marshall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2394d2d65786c1fd725bd928e2a22ef3 = L.marker(
+                [42.27226, -84.96331],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_2394d2d65786c1fd725bd928e2a22ef3.bindTooltip(
+                `<div>
+                     Pipeline: Athens Compressor, Origin: Athens Compressor, Destination: MGU-Marshall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1d1e3aa57a3f75b0ea8c0dda24a71329 = L.polyline(
+                [[42.27226, -84.96331], [42.27143, -84.84859]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_f9d10163292bde37cf45bac2d991a501 = L.marker(
+                [42.27226, -84.96331],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_f9d10163292bde37cf45bac2d991a501.bindTooltip(
+                `<div>
+                     Pipeline: MGU-Marshall, Origin: MGU-Marshall, Destination: Marengo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_074953b8ad25fcb5ac9f735d70acbee2 = L.marker(
+                [42.27143, -84.84859],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_074953b8ad25fcb5ac9f735d70acbee2.bindTooltip(
+                `<div>
+                     Pipeline: MGU-Marshall, Origin: MGU-Marshall, Destination: Marengo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3695e2bd5068c4956b3e56f98fb31012 = L.polyline(
+                [[42.27143, -84.84859], [42.20739, -85.02335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_478c8a2458504671c0f41e1de32c147a = L.marker(
+                [42.27143, -84.84859],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_478c8a2458504671c0f41e1de32c147a.bindTooltip(
+                `<div>
+                     Pipeline: Marengo, Origin: Marengo, Destination: Sheridan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85b825163b940ffdc72e16d137c246ba = L.marker(
+                [42.20739, -85.02335],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_85b825163b940ffdc72e16d137c246ba.bindTooltip(
+                `<div>
+                     Pipeline: Marengo, Origin: Marengo, Destination: Sheridan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3b59277f2dcf7b7cb9775cafc7b50f89 = L.polyline(
+                [[42.20739, -85.02335], [42.43038, -84.41284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_34df9726177cca03f7c71d37ccf76982 = L.marker(
+                [42.20739, -85.02335],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_34df9726177cca03f7c71d37ccf76982.bindTooltip(
+                `<div>
+                     Pipeline: Sheridan, Origin: Sheridan, Destination: Jackson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da6df4e2021fc24659e0139668436ceb = L.marker(
+                [42.43038, -84.41284],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_da6df4e2021fc24659e0139668436ceb.bindTooltip(
+                `<div>
+                     Pipeline: Sheridan, Origin: Sheridan, Destination: Jackson
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e97564bf78b6a9801ecdbebbb8b9412c = L.polyline(
+                [[42.43038, -84.41284], [42.68421, -83.76179]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_46b83263b711e79895531337832b4f08 = L.marker(
+                [42.43038, -84.41284],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_46b83263b711e79895531337832b4f08.bindTooltip(
+                `<div>
+                     Pipeline: Jackson, Origin: Jackson, Destination: Hartland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dabf8c0b28a3fbf9f29e7b1b285c62b0 = L.marker(
+                [42.68421, -83.76179],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_dabf8c0b28a3fbf9f29e7b1b285c62b0.bindTooltip(
+                `<div>
+                     Pipeline: Jackson, Origin: Jackson, Destination: Hartland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_afb471324318eef8d2f0c238b28416e1 = L.polyline(
+                [[42.68421, -83.76179], [42.6107, -83.5772]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_de872462ec0af91abbeb0b421cdf713b = L.marker(
+                [42.68421, -83.76179],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_de872462ec0af91abbeb0b421cdf713b.bindTooltip(
+                `<div>
+                     Pipeline: Hartland, Origin: Hartland, Destination: Highland Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cae7111dedd9ff39cec7f692e59e8b06 = L.marker(
+                [42.6107, -83.5772],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_cae7111dedd9ff39cec7f692e59e8b06.bindTooltip(
+                `<div>
+                     Pipeline: Hartland, Origin: Hartland, Destination: Highland Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_749025bd358a80be0e68f9e2ea38904c = L.polyline(
+                [[42.6107, -83.5772], [42.60816, -83.55994]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_4b47f1302446d4b158bf6d53f1be741c = L.marker(
+                [42.6107, -83.5772],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_4b47f1302446d4b158bf6d53f1be741c.bindTooltip(
+                `<div>
+                     Pipeline: Highland Compressor, Origin: Highland Compressor, Destination: Milford Junction
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a90c854755c66c03adb71c3088b30377 = L.marker(
+                [42.60816, -83.55994],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_a90c854755c66c03adb71c3088b30377.bindTooltip(
+                `<div>
+                     Pipeline: Highland Compressor, Origin: Highland Compressor, Destination: Milford Junction
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4ad6f55db514491fc83a64209f07e031 = L.polyline(
+                [[42.60816, -83.55994], [42.76344, -83.11139]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_0337ea7e736ff0f9e5f63477e57b9e92 = L.marker(
+                [42.60816, -83.55994],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_0337ea7e736ff0f9e5f63477e57b9e92.bindTooltip(
+                `<div>
+                     Pipeline: Milford Junction, Origin: Milford Junction, Destination: Washington Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eaf268b086b9588aa4c573d86833ebe3 = L.marker(
+                [42.76344, -83.11139],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_eaf268b086b9588aa4c573d86833ebe3.bindTooltip(
+                `<div>
+                     Pipeline: Milford Junction, Origin: Milford Junction, Destination: Washington Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a32ccaed1de3c41bd21c3b7c857a5894 = L.polyline(
+                [[42.76344, -83.11139], [42.76344, -83.11139]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            var marker_2fe2c2b16236d90c525ca8eb69ca21c4 = L.marker(
+                [42.76344, -83.11139],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_2fe2c2b16236d90c525ca8eb69ca21c4.bindTooltip(
+                `<div>
+                     Pipeline: Washington Compressor, Origin: Washington Compressor, Destination: Washington Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62bb4c31f47a8b928aa0d5daae4bfb09 = L.marker(
+                [42.76344, -83.11139],
+                {}
+            ).addTo(map_483417473335ca0b7e2e597a2aabd92a);
+        
+    
+            marker_62bb4c31f47a8b928aa0d5daae4bfb09.bindTooltip(
+                `<div>
+                     Pipeline: Washington Compressor, Origin: Washington Compressor, Destination: Washington Compressor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7d98ecf759a4771c9d141218371c78bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7d98ecf759a4771c9d141218371c78bd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7d98ecf759a4771c9d141218371c78bd = L.map(
+                "map_7d98ecf759a4771c9d141218371c78bd",
+                {
+                    center: [39.909538125, -108.22776125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_87bca85e5a35d164562e90102ad5d620 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_87bca85e5a35d164562e90102ad5d620.addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var poly_line_259eeac337a3016ac5fe9a70788b59d2 = L.polyline(
+                [[39.95081, -108.31902], [39.95081, -108.31902]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_508f7d1023fb74953db255a30215a31a = L.marker(
+                [39.95081, -108.31902],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_508f7d1023fb74953db255a30215a31a.bindTooltip(
+                `<div>
+                     Pipeline: WILD HORSE, Origin: WILD HORSE, Destination: MEEKER PLANT INTRCNT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d14344892f50670b128256098e6f68ac = L.marker(
+                [39.95081, -108.31902],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_d14344892f50670b128256098e6f68ac.bindTooltip(
+                `<div>
+                     Pipeline: WILD HORSE, Origin: WILD HORSE, Destination: MEEKER PLANT INTRCNT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_742547ad620129a3ec11a0e9b16c13c7 = L.polyline(
+                [[39.95081, -108.31902], [39.90592, -108.29288]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_6ace535c917ba9c2f67b4bd79415b486 = L.marker(
+                [39.95081, -108.31902],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_6ace535c917ba9c2f67b4bd79415b486.bindTooltip(
+                `<div>
+                     Pipeline: MEEKER PLANT INTRCNT, Origin: MEEKER PLANT INTRCNT, Destination: WHITE/TRANS RYAN GUL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94f884d15df18531d3a39029f9de48cd = L.marker(
+                [39.90592, -108.29288],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_94f884d15df18531d3a39029f9de48cd.bindTooltip(
+                `<div>
+                     Pipeline: MEEKER PLANT INTRCNT, Origin: MEEKER PLANT INTRCNT, Destination: WHITE/TRANS RYAN GUL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f42cd4b6a979724f4e57eacc03a156d8 = L.polyline(
+                [[39.90592, -108.29288], [39.89894, -108.18956]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_a76c51ab800a15f0bbaf802b6f811743 = L.marker(
+                [39.90592, -108.29288],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_a76c51ab800a15f0bbaf802b6f811743.bindTooltip(
+                `<div>
+                     Pipeline: WHITE/TRANS RYAN GUL, Origin: WHITE/TRANS RYAN GUL, Destination: WOLF CREEK (REC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf2fb9c6048875c2ec32e0ea6e81e0fc = L.marker(
+                [39.89894, -108.18956],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_cf2fb9c6048875c2ec32e0ea6e81e0fc.bindTooltip(
+                `<div>
+                     Pipeline: WHITE/TRANS RYAN GUL, Origin: WHITE/TRANS RYAN GUL, Destination: WOLF CREEK (REC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ddbb74f04407d197ad427a722042cbbe = L.polyline(
+                [[39.89894, -108.18956], [39.89894, -108.18956]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_81d19ab159cfef9cf326cf92eb51e5a0 = L.marker(
+                [39.89894, -108.18956],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_81d19ab159cfef9cf326cf92eb51e5a0.bindTooltip(
+                `<div>
+                     Pipeline: WOLF CREEK (REC), Origin: WOLF CREEK (REC), Destination: MAGNOLIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a68c951b1823ec2f4b616272e7a12bf4 = L.marker(
+                [39.89894, -108.18956],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_a68c951b1823ec2f4b616272e7a12bf4.bindTooltip(
+                `<div>
+                     Pipeline: WOLF CREEK (REC), Origin: WOLF CREEK (REC), Destination: MAGNOLIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_320613a10eb1ef14b2249a26119d4422 = L.polyline(
+                [[39.89894, -108.18956], [39.89894, -108.18956]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_b3e7fcf6369cb1b9204dbad7a5349987 = L.marker(
+                [39.89894, -108.18956],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_b3e7fcf6369cb1b9204dbad7a5349987.bindTooltip(
+                `<div>
+                     Pipeline: MAGNOLIA, Origin: MAGNOLIA, Destination: WOLF CREEK (DEL)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f03fdf0222da692e63222134cc63e7c = L.marker(
+                [39.89894, -108.18956],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_1f03fdf0222da692e63222134cc63e7c.bindTooltip(
+                `<div>
+                     Pipeline: MAGNOLIA, Origin: MAGNOLIA, Destination: WOLF CREEK (DEL)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_237fab3e4d4b16e226e9d801c541da4f = L.polyline(
+                [[39.89894, -108.18956], [39.89894, -108.1928]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_65bacba5c6b9d7dd48327c4e10a848c5 = L.marker(
+                [39.89894, -108.18956],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_65bacba5c6b9d7dd48327c4e10a848c5.bindTooltip(
+                `<div>
+                     Pipeline: WOLF CREEK (DEL), Origin: WOLF CREEK (DEL), Destination: TRAPPERS LAKE (REC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ea69ae9a9f0b75666b4184d76e83729 = L.marker(
+                [39.89894, -108.1928],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_1ea69ae9a9f0b75666b4184d76e83729.bindTooltip(
+                `<div>
+                     Pipeline: WOLF CREEK (DEL), Origin: WOLF CREEK (DEL), Destination: TRAPPERS LAKE (REC)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ef079203e0d6a9fc1781e09bb49aba61 = L.polyline(
+                [[39.89894, -108.1928], [39.89894, -108.1928]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_be18a396157a8793dfb6d920a7eccb51 = L.marker(
+                [39.89894, -108.1928],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_be18a396157a8793dfb6d920a7eccb51.bindTooltip(
+                `<div>
+                     Pipeline: TRAPPERS LAKE (REC), Origin: TRAPPERS LAKE (REC), Destination: FLAT TOP (CIG)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcb0a3f4d8fbec7a3219d264e3998ca5 = L.marker(
+                [39.89894, -108.1928],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_bcb0a3f4d8fbec7a3219d264e3998ca5.bindTooltip(
+                `<div>
+                     Pipeline: TRAPPERS LAKE (REC), Origin: TRAPPERS LAKE (REC), Destination: FLAT TOP (CIG)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_38dda7a657b4f94e4bff4f1ea466e922 = L.polyline(
+                [[39.89894, -108.1928], [39.89894, -108.1928]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            var marker_a98eedb96babff5a90fdb756a720fc8e = L.marker(
+                [39.89894, -108.1928],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_a98eedb96babff5a90fdb756a720fc8e.bindTooltip(
+                `<div>
+                     Pipeline: FLAT TOP (CIG), Origin: FLAT TOP (CIG), Destination: FLAT TOP (CIG)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eebdb58d783bfb1bdffdf7283fa84e94 = L.marker(
+                [39.89894, -108.1928],
+                {}
+            ).addTo(map_7d98ecf759a4771c9d141218371c78bd);
+        
+    
+            marker_eebdb58d783bfb1bdffdf7283fa84e94.bindTooltip(
+                `<div>
+                     Pipeline: FLAT TOP (CIG), Origin: FLAT TOP (CIG), Destination: FLAT TOP (CIG)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

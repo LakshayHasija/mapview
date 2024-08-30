@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04aa8ad8fbb0c024069ac45d1db5a4c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_04aa8ad8fbb0c024069ac45d1db5a4c4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_04aa8ad8fbb0c024069ac45d1db5a4c4 = L.map(
+                "map_04aa8ad8fbb0c024069ac45d1db5a4c4",
+                {
+                    center: [31.222246499999997, -94.594165],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e69468fce158023c5092651a189ffd7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7e69468fce158023c5092651a189ffd7.addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var poly_line_5999ba237aa66a66e6a4954852fb4ecd = L.polyline(
+                [[30.0335, -94.10235], [31.9686, -99.90181]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_af12dc2ed1caaedfee517b4440ba7100 = L.marker(
+                [30.0335, -94.10235],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_af12dc2ed1caaedfee517b4440ba7100.bindTooltip(
+                `<div>
+                     Pipeline: Natural Gas Pipeline Co. (NGPL), Origin: Natural Gas Pipeline Co. (NGPL), Destination: Kinder Morgan - Tejas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6272d2f433171c2cbc4dacd80c380d20 = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_6272d2f433171c2cbc4dacd80c380d20.bindTooltip(
+                `<div>
+                     Pipeline: Natural Gas Pipeline Co. (NGPL), Origin: Natural Gas Pipeline Co. (NGPL), Destination: Kinder Morgan - Tejas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_96eee876ac1800d8c09fc0caa7674f82 = L.polyline(
+                [[31.9686, -99.90181], [32.01876, -97.60836]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_5d4cab20d707ecf9cb2a8fac7ffb9971 = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_5d4cab20d707ecf9cb2a8fac7ffb9971.bindTooltip(
+                `<div>
+                     Pipeline: Kinder Morgan - Tejas, Origin: Kinder Morgan - Tejas, Destination: Kinder Morgan - Texas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f53ffb8c93a7253c9fc263c15ecaf852 = L.marker(
+                [32.01876, -97.60836],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_f53ffb8c93a7253c9fc263c15ecaf852.bindTooltip(
+                `<div>
+                     Pipeline: Kinder Morgan - Tejas, Origin: Kinder Morgan - Tejas, Destination: Kinder Morgan - Texas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_782e314e6d8153982fcb12f06cd99304 = L.polyline(
+                [[32.01876, -97.60836], [30.02396, -94.07772]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_70b5073a490c5260dc8eabfa28dbb115 = L.marker(
+                [32.01876, -97.60836],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_70b5073a490c5260dc8eabfa28dbb115.bindTooltip(
+                `<div>
+                     Pipeline: Kinder Morgan - Texas, Origin: Kinder Morgan - Texas, Destination: Golden Triangle Storage (GTS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_073dc00f87c95602d9062984dc2e1444 = L.marker(
+                [30.02396, -94.07772],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_073dc00f87c95602d9062984dc2e1444.bindTooltip(
+                `<div>
+                     Pipeline: Kinder Morgan - Texas, Origin: Kinder Morgan - Texas, Destination: Golden Triangle Storage (GTS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8f93aa276f6cabdabf9b4d6f04843ccb = L.polyline(
+                [[30.02396, -94.07772], [30.09299, -93.73655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_4b82798a6e0dc6878a0c1c509cbdbd77 = L.marker(
+                [30.02396, -94.07772],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_4b82798a6e0dc6878a0c1c509cbdbd77.bindTooltip(
+                `<div>
+                     Pipeline: Golden Triangle Storage (GTS), Origin: Golden Triangle Storage (GTS), Destination: Texoma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28db09356411c3acafeae7759a96d5bd = L.marker(
+                [30.09299, -93.73655],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_28db09356411c3acafeae7759a96d5bd.bindTooltip(
+                `<div>
+                     Pipeline: Golden Triangle Storage (GTS), Origin: Golden Triangle Storage (GTS), Destination: Texoma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_92c91eed460105ebafe5b7a61f0accee = L.polyline(
+                [[30.09299, -93.73655], [30.09299, -93.73655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_003356ad6d533b120cd05f7f7023c738 = L.marker(
+                [30.09299, -93.73655],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_003356ad6d533b120cd05f7f7023c738.bindTooltip(
+                `<div>
+                     Pipeline: Texoma, Origin: Texoma, Destination: Florida Gas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b78ca07d5983dc3a009d64c113dab71 = L.marker(
+                [30.09299, -93.73655],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_2b78ca07d5983dc3a009d64c113dab71.bindTooltip(
+                `<div>
+                     Pipeline: Texoma, Origin: Texoma, Destination: Florida Gas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6d15a8a8351b743811ae6a06713f8660 = L.polyline(
+                [[30.09299, -93.73655], [31.9686, -99.90181]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_5f5f3eba22b972deb65c85ebfbb343b7 = L.marker(
+                [30.09299, -93.73655],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_5f5f3eba22b972deb65c85ebfbb343b7.bindTooltip(
+                `<div>
+                     Pipeline: Florida Gas, Origin: Florida Gas, Destination: Texas Eastern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56d02d7187390fafa3f4b3e28a3aae67 = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_56d02d7187390fafa3f4b3e28a3aae67.bindTooltip(
+                `<div>
+                     Pipeline: Florida Gas, Origin: Florida Gas, Destination: Texas Eastern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_adac1dcf69fd767c07f87be6b3c540a0 = L.polyline(
+                [[31.9686, -99.90181], [35.51749, -86.58045]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_8ab4a5fdd90d989f3a7857e48347eed6 = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_8ab4a5fdd90d989f3a7857e48347eed6.bindTooltip(
+                `<div>
+                     Pipeline: Texas Eastern, Origin: Texas Eastern, Destination: Tennessee Gas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7302bb98888d3dbf8eff57995c7b9608 = L.marker(
+                [35.51749, -86.58045],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_7302bb98888d3dbf8eff57995c7b9608.bindTooltip(
+                `<div>
+                     Pipeline: Texas Eastern, Origin: Texas Eastern, Destination: Tennessee Gas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_627d59e5bcb00eb768cf41ce0cac7e20 = L.polyline(
+                [[35.51749, -86.58045], [30.20893, -93.33889]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_964ebc6b97a6ad1bb129f007ec1cae76 = L.marker(
+                [35.51749, -86.58045],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_964ebc6b97a6ad1bb129f007ec1cae76.bindTooltip(
+                `<div>
+                     Pipeline: Tennessee Gas, Origin: Tennessee Gas, Destination: Transco C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbc61cca1ca272e7e4575a25fb55b444 = L.marker(
+                [30.20893, -93.33889],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_fbc61cca1ca272e7e4575a25fb55b444.bindTooltip(
+                `<div>
+                     Pipeline: Tennessee Gas, Origin: Tennessee Gas, Destination: Transco C
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_60d9a3c94621da0095d61d6ba02e9016 = L.polyline(
+                [[30.20893, -93.33889], [30.20893, -93.33889]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_419ec484a9280290e7bc6e6857a6add8 = L.marker(
+                [30.20893, -93.33889],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_419ec484a9280290e7bc6e6857a6add8.bindTooltip(
+                `<div>
+                     Pipeline: Transco C, Origin: Transco C, Destination: Transco AB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3efc436243cd1f42318ade1160b87122 = L.marker(
+                [30.20893, -93.33889],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_3efc436243cd1f42318ade1160b87122.bindTooltip(
+                `<div>
+                     Pipeline: Transco C, Origin: Transco C, Destination: Transco AB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6c9f97e11180e0ead766ecb9d18984f1 = L.polyline(
+                [[30.20893, -93.33889], [30.20893, -93.33889]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            var marker_81ab062c914d3d0e0f5bfe8b682d51f9 = L.marker(
+                [30.20893, -93.33889],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_81ab062c914d3d0e0f5bfe8b682d51f9.bindTooltip(
+                `<div>
+                     Pipeline: Transco AB, Origin: Transco AB, Destination: Transco AB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9886e188a8fa21dcea076baa276015b = L.marker(
+                [30.20893, -93.33889],
+                {}
+            ).addTo(map_04aa8ad8fbb0c024069ac45d1db5a4c4);
+        
+    
+            marker_b9886e188a8fa21dcea076baa276015b.bindTooltip(
+                `<div>
+                     Pipeline: Transco AB, Origin: Transco AB, Destination: Transco AB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

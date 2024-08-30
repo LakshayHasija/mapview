@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_edd3842e2fdf1c7231a71ec0c57dc4c5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_edd3842e2fdf1c7231a71ec0c57dc4c5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_edd3842e2fdf1c7231a71ec0c57dc4c5 = L.map(
+                "map_edd3842e2fdf1c7231a71ec0c57dc4c5",
+                {
+                    center: [42.93653066666667, -75.78113266666668],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b9545c4763ba3307f40ed982e390a5e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1b9545c4763ba3307f40ed982e390a5e.addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var poly_line_6c98af88505d6ff521c4aea2e55b21b5 = L.polyline(
+                [[42.69185, -76.92019], [42.69185, -76.92019]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_cd273712f6ade34afa85304c1a81fb97 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_cd273712f6ade34afa85304c1a81fb97.bindTooltip(
+                `<div>
+                     Pipeline: SENECA LAKE HUB, Origin: SENECA LAKE HUB, Destination: SENECA LAKE STO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb9fdb7efe9ac00381695089d1264316 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_fb9fdb7efe9ac00381695089d1264316.bindTooltip(
+                `<div>
+                     Pipeline: SENECA LAKE HUB, Origin: SENECA LAKE HUB, Destination: SENECA LAKE STO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_afb3348d95e7bdc63c02d23760304ecf = L.polyline(
+                [[42.69185, -76.92019], [43.09637, -75.08448]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_e3ceb1d24ccac95f31f13a95abdb26a0 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_e3ceb1d24ccac95f31f13a95abdb26a0.bindTooltip(
+                `<div>
+                     Pipeline: SENECA LAKE STO, Origin: SENECA LAKE STO, Destination: USSALT/ARLSTOR  SCHUYLER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68ae6062df3e8c9d9da119ca76ab6a0d = L.marker(
+                [43.09637, -75.08448],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_68ae6062df3e8c9d9da119ca76ab6a0d.bindTooltip(
+                `<div>
+                     Pipeline: SENECA LAKE STO, Origin: SENECA LAKE STO, Destination: USSALT/ARLSTOR  SCHUYLER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b97f00cfb42909ba29f2d3ef292dbc49 = L.polyline(
+                [[43.09637, -75.08448], [42.76519, -76.8721]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_0124d8dda5099993ac11fa7b4d347440 = L.marker(
+                [43.09637, -75.08448],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_0124d8dda5099993ac11fa7b4d347440.bindTooltip(
+                `<div>
+                     Pipeline: USSALT/ARLSTOR  SCHUYLER, Origin: USSALT/ARLSTOR  SCHUYLER, Destination: NYSEG/ARLSTOR SENECA FARM TAPS CHEM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f243965768aa9bfa8fc65bef63a3a97 = L.marker(
+                [42.76519, -76.8721],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_5f243965768aa9bfa8fc65bef63a3a97.bindTooltip(
+                `<div>
+                     Pipeline: USSALT/ARLSTOR  SCHUYLER, Origin: USSALT/ARLSTOR  SCHUYLER, Destination: NYSEG/ARLSTOR SENECA FARM TAPS CHEM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ee26ff0b87364e71896cd3dd14cee7d5 = L.polyline(
+                [[42.76519, -76.8721], [42.69185, -76.92019]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_fc07401fad0c365c2f933afda9ea074b = L.marker(
+                [42.76519, -76.8721],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_fc07401fad0c365c2f933afda9ea074b.bindTooltip(
+                `<div>
+                     Pipeline: NYSEG/ARLSTOR SENECA FARM TAPS CHEM, Origin: NYSEG/ARLSTOR SENECA FARM TAPS CHEM, Destination: MILL PL/ARLSTOR SENECA LAKE CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa6ba710d5e07b550bd221f6f95de827 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_aa6ba710d5e07b550bd221f6f95de827.bindTooltip(
+                `<div>
+                     Pipeline: NYSEG/ARLSTOR SENECA FARM TAPS CHEM, Origin: NYSEG/ARLSTOR SENECA FARM TAPS CHEM, Destination: MILL PL/ARLSTOR SENECA LAKE CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_39a8406129474ad50a8e1cb67b165601 = L.polyline(
+                [[42.69185, -76.92019], [42.1079, -76.77188]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_72071e50db890520ae554a6c2bd17e45 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_72071e50db890520ae554a6c2bd17e45.bindTooltip(
+                `<div>
+                     Pipeline: MILL PL/ARLSTOR SENECA LAKE CHEMUNG, Origin: MILL PL/ARLSTOR SENECA LAKE CHEMUNG, Destination: NYSEG/ARLSTOR ELMIRA CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b478910751e9bc1674ad1a0b2f2c836 = L.marker(
+                [42.1079, -76.77188],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_1b478910751e9bc1674ad1a0b2f2c836.bindTooltip(
+                `<div>
+                     Pipeline: MILL PL/ARLSTOR SENECA LAKE CHEMUNG, Origin: MILL PL/ARLSTOR SENECA LAKE CHEMUNG, Destination: NYSEG/ARLSTOR ELMIRA CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dd59f3472371310f0ff4f3d903dceda7 = L.polyline(
+                [[42.1079, -76.77188], [42.69185, -76.92019]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_0224df51e0d56ad14c21cc0d17ab1135 = L.marker(
+                [42.1079, -76.77188],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_0224df51e0d56ad14c21cc0d17ab1135.bindTooltip(
+                `<div>
+                     Pipeline: NYSEG/ARLSTOR ELMIRA CHEMUNG, Origin: NYSEG/ARLSTOR ELMIRA CHEMUNG, Destination: EGTS/ARLSTOR SENECA LAKE CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fa313f692aac13842b30f01510c4d15 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_9fa313f692aac13842b30f01510c4d15.bindTooltip(
+                `<div>
+                     Pipeline: NYSEG/ARLSTOR ELMIRA CHEMUNG, Origin: NYSEG/ARLSTOR ELMIRA CHEMUNG, Destination: EGTS/ARLSTOR SENECA LAKE CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7274d2a11b8e4b45a7d39cd090bb9e93 = L.polyline(
+                [[42.69185, -76.92019], [42.69185, -76.92019]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_20803070b5ebea23d0279bf40fe87520 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_20803070b5ebea23d0279bf40fe87520.bindTooltip(
+                `<div>
+                     Pipeline: EGTS/ARLSTOR SENECA LAKE CHEMUNG, Origin: EGTS/ARLSTOR SENECA LAKE CHEMUNG, Destination: EGTS/ARLSTOR SENECA LAKE CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b232ad1d486036034832e65eaac9d8c1 = L.marker(
+                [42.69185, -76.92019],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_b232ad1d486036034832e65eaac9d8c1.bindTooltip(
+                `<div>
+                     Pipeline: EGTS/ARLSTOR SENECA LAKE CHEMUNG, Origin: EGTS/ARLSTOR SENECA LAKE CHEMUNG, Destination: EGTS/ARLSTOR SENECA LAKE CHEMUNG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f445f698efe249b32c6c521e29ebe5a2 = L.polyline(
+                [[43.29943, -74.21793], [42.14285, -77.05469]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_6a93893d8ee3b33309fe496e87c320e4 = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_6a93893d8ee3b33309fe496e87c320e4.bindTooltip(
+                `<div>
+                     Pipeline: MILL PL/ARLSTOR SOUTH CHURCH RD STE, Origin: MILL PL/ARLSTOR SOUTH CHURCH RD STE, Destination: CORNING/ARLSTOR  STEUBEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3f36171a0877e1d57334fe9294b0bc6 = L.marker(
+                [42.14285, -77.05469],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_b3f36171a0877e1d57334fe9294b0bc6.bindTooltip(
+                `<div>
+                     Pipeline: MILL PL/ARLSTOR SOUTH CHURCH RD STE, Origin: MILL PL/ARLSTOR SOUTH CHURCH RD STE, Destination: CORNING/ARLSTOR  STEUBEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_47ea27dd6d01af0fb6b2576e8a84acc3 = L.polyline(
+                [[42.14285, -77.05469], [43.29943, -74.21793]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_67efca6b9ea9e1703396a855ed730bbf = L.marker(
+                [42.14285, -77.05469],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_67efca6b9ea9e1703396a855ed730bbf.bindTooltip(
+                `<div>
+                     Pipeline: CORNING/ARLSTOR  STEUBEN, Origin: CORNING/ARLSTOR  STEUBEN, Destination: THOMAS CORNERS STO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a72883b1c06f19ff7406e7873cc8364d = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_a72883b1c06f19ff7406e7873cc8364d.bindTooltip(
+                `<div>
+                     Pipeline: CORNING/ARLSTOR  STEUBEN, Origin: CORNING/ARLSTOR  STEUBEN, Destination: THOMAS CORNERS STO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_707279fa6139481fc3e96e346a9a230f = L.polyline(
+                [[43.29943, -74.21793], [43.29943, -74.21793]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_852494dccb76f997ced3c13be4eacdb8 = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_852494dccb76f997ced3c13be4eacdb8.bindTooltip(
+                `<div>
+                     Pipeline: THOMAS CORNERS STO, Origin: THOMAS CORNERS STO, Destination: THOMAS CORNERS HUB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f742e33ca9229626c3b867ca691a34dd = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_f742e33ca9229626c3b867ca691a34dd.bindTooltip(
+                `<div>
+                     Pipeline: THOMAS CORNERS STO, Origin: THOMAS CORNERS STO, Destination: THOMAS CORNERS HUB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e396d14811dc55a85faa020b0c6ffd4c = L.polyline(
+                [[43.29943, -74.21793], [43.29943, -74.21793]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_9da5c076b04ffa7c92a48ad7f49bf4e0 = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_9da5c076b04ffa7c92a48ad7f49bf4e0.bindTooltip(
+                `<div>
+                     Pipeline: THOMAS CORNERS HUB, Origin: THOMAS CORNERS HUB, Destination: ARLSTOR/TGP GRAVEL RUN ARLINGTON ST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4999fa73cc0af32c176fc14f8fb661ed = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_4999fa73cc0af32c176fc14f8fb661ed.bindTooltip(
+                `<div>
+                     Pipeline: THOMAS CORNERS HUB, Origin: THOMAS CORNERS HUB, Destination: ARLSTOR/TGP GRAVEL RUN ARLINGTON ST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1025a00ac74f8a36e9aaec54979f5c82 = L.polyline(
+                [[43.29943, -74.21793], [43.32007, -75.28295]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_a1f6471f72c220f74044be2b24326810 = L.marker(
+                [43.29943, -74.21793],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_a1f6471f72c220f74044be2b24326810.bindTooltip(
+                `<div>
+                     Pipeline: ARLSTOR/TGP GRAVEL RUN ARLINGTON ST, Origin: ARLSTOR/TGP GRAVEL RUN ARLINGTON ST, Destination: STEUBEN STO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c230dfb9df9b7fd6f8f9c5c4c79eadc = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_8c230dfb9df9b7fd6f8f9c5c4c79eadc.bindTooltip(
+                `<div>
+                     Pipeline: ARLSTOR/TGP GRAVEL RUN ARLINGTON ST, Origin: ARLSTOR/TGP GRAVEL RUN ARLINGTON ST, Destination: STEUBEN STO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_64bca253b80428b71c4b25cbe3314fbd = L.polyline(
+                [[43.32007, -75.28295], [43.32007, -75.28295]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_7fdcb3a436b5c9ed152a78a59cd4a4f0 = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_7fdcb3a436b5c9ed152a78a59cd4a4f0.bindTooltip(
+                `<div>
+                     Pipeline: STEUBEN STO, Origin: STEUBEN STO, Destination: STEUBEN HUB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be0cad7d91190bebbe9b05a1b3598a79 = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_be0cad7d91190bebbe9b05a1b3598a79.bindTooltip(
+                `<div>
+                     Pipeline: STEUBEN STO, Origin: STEUBEN STO, Destination: STEUBEN HUB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_567ecf5c6131d0297f05ac287f206737 = L.polyline(
+                [[43.32007, -75.28295], [43.32007, -75.28295]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_beef3193204747bad0be31e5f5423ae1 = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_beef3193204747bad0be31e5f5423ae1.bindTooltip(
+                `<div>
+                     Pipeline: STEUBEN HUB, Origin: STEUBEN HUB, Destination: EGTS/ARLSTOR STEUBEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_660208abe4842434f91624ed06d8c546 = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_660208abe4842434f91624ed06d8c546.bindTooltip(
+                `<div>
+                     Pipeline: STEUBEN HUB, Origin: STEUBEN HUB, Destination: EGTS/ARLSTOR STEUBEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_65ebb8869fa31af0b62cca67431089a7 = L.polyline(
+                [[43.32007, -75.28295], [43.32007, -75.28295]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            var marker_8b7f35427bed720e743cade7a376ae73 = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_8b7f35427bed720e743cade7a376ae73.bindTooltip(
+                `<div>
+                     Pipeline: EGTS/ARLSTOR STEUBEN, Origin: EGTS/ARLSTOR STEUBEN, Destination: EGTS/ARLSTOR STEUBEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9eb70d3a636654de88074360aecf46eb = L.marker(
+                [43.32007, -75.28295],
+                {}
+            ).addTo(map_edd3842e2fdf1c7231a71ec0c57dc4c5);
+        
+    
+            marker_9eb70d3a636654de88074360aecf46eb.bindTooltip(
+                `<div>
+                     Pipeline: EGTS/ARLSTOR STEUBEN, Origin: EGTS/ARLSTOR STEUBEN, Destination: EGTS/ARLSTOR STEUBEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

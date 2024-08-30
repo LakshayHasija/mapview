@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f4c40047ba36c70685d0a13a70784613 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f4c40047ba36c70685d0a13a70784613" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f4c40047ba36c70685d0a13a70784613 = L.map(
+                "map_f4c40047ba36c70685d0a13a70784613",
+                {
+                    center: [42.4887875, -107.02230823076923],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76c7e7b1a81004c79c1d94647684a652 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_76c7e7b1a81004c79c1d94647684a652.addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var poly_line_a6e97e6e165cd957782c9dfadbde56c9 = L.polyline(
+                [[41.761071, -107.845036], [40.526577, -107.47233]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_277c7e40d6ffb1a9edc2198385032ccd = L.marker(
+                [41.761071, -107.845036],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_277c7e40d6ffb1a9edc2198385032ccd.bindTooltip(
+                `<div>
+                     Pipeline: BHWYGAS/WIC (WAL) WALCOTT JUNCTION, Origin: BHWYGAS/WIC (WAL) WALCOTT JUNCTION, Destination: SUMMIDJO/CPG (MKN) MAKENA REC WELD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6e77c155955f318030672e0470744b8 = L.marker(
+                [40.526577, -107.47233],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_f6e77c155955f318030672e0470744b8.bindTooltip(
+                `<div>
+                     Pipeline: BHWYGAS/WIC (WAL) WALCOTT JUNCTION, Origin: BHWYGAS/WIC (WAL) WALCOTT JUNCTION, Destination: SUMMIDJO/CPG (MKN) MAKENA REC WELD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_07edcd0b2650f8348d15980f8206bdaf = L.polyline(
+                [[40.526577, -107.47233], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_6469e77db6b4716d1c0f760321fd749e = L.marker(
+                [40.526577, -107.47233],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_6469e77db6b4716d1c0f760321fd749e.bindTooltip(
+                `<div>
+                     Pipeline: SUMMIDJO/CPG (MKN) MAKENA REC WELD, Origin: SUMMIDJO/CPG (MKN) MAKENA REC WELD, Destination: MW OVR/WIC (CWR) CLEAR CREEK STORAG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2a5ff46ec190519ae9bc5b5b9596cb6 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_f2a5ff46ec190519ae9bc5b5b9596cb6.bindTooltip(
+                `<div>
+                     Pipeline: SUMMIDJO/CPG (MKN) MAKENA REC WELD, Origin: SUMMIDJO/CPG (MKN) MAKENA REC WELD, Destination: MW OVR/WIC (CWR) CLEAR CREEK STORAG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6f6b0698393fc354921bc83c4c1416d3 = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_c766749699b0e04d29bc2082d7a18e73 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_c766749699b0e04d29bc2082d7a18e73.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (CWR) CLEAR CREEK STORAG, Origin: MW OVR/WIC (CWR) CLEAR CREEK STORAG, Destination: MW P/L/WIC (KAW) KANDA TO WIC-QUEST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b30e59826a3b47b344d0cdb0443c75e3 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_b30e59826a3b47b344d0cdb0443c75e3.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (CWR) CLEAR CREEK STORAG, Origin: MW OVR/WIC (CWR) CLEAR CREEK STORAG, Destination: MW P/L/WIC (KAW) KANDA TO WIC-QUEST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_eb45b09eeedab8c7720498453bfcec3d = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_95dbbc5d63711e3c1dba44f4fba5461f = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_95dbbc5d63711e3c1dba44f4fba5461f.bindTooltip(
+                `<div>
+                     Pipeline: MW P/L/WIC (KAW) KANDA TO WIC-QUEST, Origin: MW P/L/WIC (KAW) KANDA TO WIC-QUEST, Destination: MW OVR/WIC (OVW) OVERTHRUST/ WIC SW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca0929c51a9711d10440014f354e1f82 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_ca0929c51a9711d10440014f354e1f82.bindTooltip(
+                `<div>
+                     Pipeline: MW P/L/WIC (KAW) KANDA TO WIC-QUEST, Origin: MW P/L/WIC (KAW) KANDA TO WIC-QUEST, Destination: MW OVR/WIC (OVW) OVERTHRUST/ WIC SW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2fb9a9b3d57cf41ac4371f57d1cd0708 = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_27ff542c5ac17412f0faa95ad0fd2228 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_27ff542c5ac17412f0faa95ad0fd2228.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (OVW) OVERTHRUST/ WIC SW, Origin: MW OVR/WIC (OVW) OVERTHRUST/ WIC SW, Destination: MW OVR/WIC (PPW) PIONEER PROCESSING
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cada6c03aff7a04bbe983657ef5645c3 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_cada6c03aff7a04bbe983657ef5645c3.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (OVW) OVERTHRUST/ WIC SW, Origin: MW OVR/WIC (OVW) OVERTHRUST/ WIC SW, Destination: MW OVR/WIC (PPW) PIONEER PROCESSING
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e3deb59ac2addfd36d27a08d9b2178e7 = L.polyline(
+                [[43.075968, -107.290284], [41.603221, -107.912251]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_e6080f5b36b2f33e957074099f87aa86 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_e6080f5b36b2f33e957074099f87aa86.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (PPW) PIONEER PROCESSING, Origin: MW OVR/WIC (PPW) PIONEER PROCESSING, Destination: USREAMID/WIC (RIM) RED RIM CARBON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc715c6602e31115eca068cd662ce2a6 = L.marker(
+                [41.603221, -107.912251],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_fc715c6602e31115eca068cd662ce2a6.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (PPW) PIONEER PROCESSING, Origin: MW OVR/WIC (PPW) PIONEER PROCESSING, Destination: USREAMID/WIC (RIM) RED RIM CARBON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2044517d47373eb4a504785064912249 = L.polyline(
+                [[41.603221, -107.912251], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_8d18b3f4daeb230ba2bbde613c67b7c5 = L.marker(
+                [41.603221, -107.912251],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_8d18b3f4daeb230ba2bbde613c67b7c5.bindTooltip(
+                `<div>
+                     Pipeline: USREAMID/WIC (RIM) RED RIM CARBON, Origin: USREAMID/WIC (RIM) RED RIM CARBON, Destination: MW OVR/WIC (RSI) RYCKMAN STORAGE IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56bbc57e0f7e1252db86892a0dd5c4f9 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_56bbc57e0f7e1252db86892a0dd5c4f9.bindTooltip(
+                `<div>
+                     Pipeline: USREAMID/WIC (RIM) RED RIM CARBON, Origin: USREAMID/WIC (RIM) RED RIM CARBON, Destination: MW OVR/WIC (RSI) RYCKMAN STORAGE IN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3a9d03874941d5915fba09a5d34e9b21 = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_3b3422b114dfa3ce572d2031c387e885 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_3b3422b114dfa3ce572d2031c387e885.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (RSI) RYCKMAN STORAGE IN, Origin: MW OVR/WIC (RSI) RYCKMAN STORAGE IN, Destination: MW OVR/WIC (RSW) RYCKMAN STORAGE WT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac62c40bc47c2e010ae68255eef0ce1b = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_ac62c40bc47c2e010ae68255eef0ce1b.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (RSI) RYCKMAN STORAGE IN, Origin: MW OVR/WIC (RSI) RYCKMAN STORAGE IN, Destination: MW OVR/WIC (RSW) RYCKMAN STORAGE WT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8025abdfa6eb4f54640f3c001b07ebe4 = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_f5d0bf425dc719f151872471efdf59f6 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_f5d0bf425dc719f151872471efdf59f6.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (RSW) RYCKMAN STORAGE WT, Origin: MW OVR/WIC (RSW) RYCKMAN STORAGE WT, Destination: MW OVR/WIC (XOW) QPC TO X016 DEL SW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd067a3cc4c86456158bb6c99250a29b = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_fd067a3cc4c86456158bb6c99250a29b.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (RSW) RYCKMAN STORAGE WT, Origin: MW OVR/WIC (RSW) RYCKMAN STORAGE WT, Destination: MW OVR/WIC (XOW) QPC TO X016 DEL SW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7bcb8ad49c9fab101c07bd8b6601878a = L.polyline(
+                [[43.075968, -107.290284], [40.122208, -102.72521]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_eb1b6805ea41dc2dcec92b05b5385c3c = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_eb1b6805ea41dc2dcec92b05b5385c3c.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (XOW) QPC TO X016 DEL SW, Origin: MW OVR/WIC (XOW) QPC TO X016 DEL SW, Destination: OWN RR/CPG (ADL) ADLER CREEK YUMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b81f07d281fbd5ec287ab32b27d77a8d = L.marker(
+                [40.122208, -102.72521],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_b81f07d281fbd5ec287ab32b27d77a8d.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (XOW) QPC TO X016 DEL SW, Origin: MW OVR/WIC (XOW) QPC TO X016 DEL SW, Destination: OWN RR/CPG (ADL) ADLER CREEK YUMA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0089f505b2f0074848b16fef433051c5 = L.polyline(
+                [[40.122208, -102.72521], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_7bb8ba580c4a0227fb2819db5107deb6 = L.marker(
+                [40.122208, -102.72521],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_7bb8ba580c4a0227fb2819db5107deb6.bindTooltip(
+                `<div>
+                     Pipeline: OWN RR/CPG (ADL) ADLER CREEK YUMA, Origin: OWN RR/CPG (ADL) ADLER CREEK YUMA, Destination: MW OVR/WIC (TML) THREEMILE DELIVERY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e1825f4ab385f3aacb957742268f025 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_3e1825f4ab385f3aacb957742268f025.bindTooltip(
+                `<div>
+                     Pipeline: OWN RR/CPG (ADL) ADLER CREEK YUMA, Origin: OWN RR/CPG (ADL) ADLER CREEK YUMA, Destination: MW OVR/WIC (TML) THREEMILE DELIVERY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_25903a9f2c45c2a3315a9780f832b205 = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_12282d81fea3ccdb1ca962f7fdd79ad9 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_12282d81fea3ccdb1ca962f7fdd79ad9.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (TML) THREEMILE DELIVERY, Origin: MW OVR/WIC (TML) THREEMILE DELIVERY, Destination: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46d395b4d85ed9baab79b4b7e0fef78b = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_46d395b4d85ed9baab79b4b7e0fef78b.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/WIC (TML) THREEMILE DELIVERY, Origin: MW OVR/WIC (TML) THREEMILE DELIVERY, Destination: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_eabe3c223c30a509d5edbf58a7b0e970 = L.polyline(
+                [[43.075968, -107.290284], [43.075968, -107.290284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            var marker_e923d9ad81ff0f2798469c3f3f61050b = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_e923d9ad81ff0f2798469c3f3f61050b.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI, Origin: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI, Destination: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd396b3df8389663696a438f5740f9a9 = L.marker(
+                [43.075968, -107.290284],
+                {}
+            ).addTo(map_f4c40047ba36c70685d0a13a70784613);
+        
+    
+            marker_fd396b3df8389663696a438f5740f9a9.bindTooltip(
+                `<div>
+                     Pipeline: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI, Origin: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI, Destination: MW OVR/RUBY (TPZ) TOPAZ RIDGE RECEI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

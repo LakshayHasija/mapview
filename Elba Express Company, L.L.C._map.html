@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65c57232292f1601d82a1fd1ea7f24d8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_65c57232292f1601d82a1fd1ea7f24d8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_65c57232292f1601d82a1fd1ea7f24d8 = L.map(
+                "map_65c57232292f1601d82a1fd1ea7f24d8",
+                {
+                    center: [32.9572205, -81.781126],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90660ba4c05eb08593758f49de51c061 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_90660ba4c05eb08593758f49de51c061.addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var poly_line_c9e87a18d46f8739035fbc2290cae0ee = L.polyline(
+                [[34.34956, -82.79567], [34.34184, -82.81057]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_f87fe9e272189024bbc957befd8bced7 = L.marker(
+                [34.34956, -82.79567],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_f87fe9e272189024bbc957befd8bced7.bindTooltip(
+                `<div>
+                     Pipeline: TRNSCO/EEC Z5 ANDERSON, Origin: TRNSCO/EEC Z5 ANDERSON, Destination: TRNSCO/EEC Z4 HART
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_806fb9812459b3514e5bf2f466f39351 = L.marker(
+                [34.34184, -82.81057],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_806fb9812459b3514e5bf2f466f39351.bindTooltip(
+                `<div>
+                     Pipeline: TRNSCO/EEC Z5 ANDERSON, Origin: TRNSCO/EEC Z5 ANDERSON, Destination: TRNSCO/EEC Z4 HART
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3edea660473f2e4a99a1587f6359695b = L.polyline(
+                [[34.34184, -82.81057], [34.34184, -82.81057]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_f614b0ca86351b7592708a8c711ccf3e = L.marker(
+                [34.34184, -82.81057],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_f614b0ca86351b7592708a8c711ccf3e.bindTooltip(
+                `<div>
+                     Pipeline: TRNSCO/EEC Z4 HART, Origin: TRNSCO/EEC Z4 HART, Destination: EEC/SNG WRENS SNG TO EEC JEFFERSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9515faf96a292ddc7196a45f94cccb4a = L.marker(
+                [34.34184, -82.81057],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_9515faf96a292ddc7196a45f94cccb4a.bindTooltip(
+                `<div>
+                     Pipeline: TRNSCO/EEC Z4 HART, Origin: TRNSCO/EEC Z4 HART, Destination: EEC/SNG WRENS SNG TO EEC JEFFERSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_64fd82ef67868e964423a210664d845c = L.polyline(
+                [[34.34184, -82.81057], [34.34184, -82.81057]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_aacee87417088ad52495bc1fb2dadc43 = L.marker(
+                [34.34184, -82.81057],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_aacee87417088ad52495bc1fb2dadc43.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG WRENS SNG TO EEC JEFFERSON, Origin: EEC/SNG WRENS SNG TO EEC JEFFERSON, Destination: EEC/SNG WRENS EEC TO SNG JEFFERSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ff389db9cf11d15a930c8c274e44738 = L.marker(
+                [34.34184, -82.81057],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_4ff389db9cf11d15a930c8c274e44738.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG WRENS SNG TO EEC JEFFERSON, Origin: EEC/SNG WRENS SNG TO EEC JEFFERSON, Destination: EEC/SNG WRENS EEC TO SNG JEFFERSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8fd6091ae348ce43c9fdce67b53b21a3 = L.polyline(
+                [[34.34184, -82.81057], [32.26943, -81.28221]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_bc12150f7410c90348eb787d282fc8dc = L.marker(
+                [34.34184, -82.81057],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_bc12150f7410c90348eb787d282fc8dc.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG WRENS EEC TO SNG JEFFERSON, Origin: EEC/SNG WRENS EEC TO SNG JEFFERSON, Destination: OGLETHRP/EEC PLANT EFFINGHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17a4e6392c8b51310a6ed9a6bd1df912 = L.marker(
+                [32.26943, -81.28221],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_17a4e6392c8b51310a6ed9a6bd1df912.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG WRENS EEC TO SNG JEFFERSON, Origin: EEC/SNG WRENS EEC TO SNG JEFFERSON, Destination: OGLETHRP/EEC PLANT EFFINGHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fa0d92d32e88dc817902ae018612d82b = L.polyline(
+                [[32.26943, -81.28221], [32.26943, -81.28221]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_83f0b7ac5e340d2381f0ee0f9a09da4f = L.marker(
+                [32.26943, -81.28221],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_83f0b7ac5e340d2381f0ee0f9a09da4f.bindTooltip(
+                `<div>
+                     Pipeline: OGLETHRP/EEC PLANT EFFINGHAM, Origin: OGLETHRP/EEC PLANT EFFINGHAM, Destination: EEC/SNG CYPRESS EFFINGHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8ff9416ec506639395b643a18fc2ca9 = L.marker(
+                [32.26943, -81.28221],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_f8ff9416ec506639395b643a18fc2ca9.bindTooltip(
+                `<div>
+                     Pipeline: OGLETHRP/EEC PLANT EFFINGHAM, Origin: OGLETHRP/EEC PLANT EFFINGHAM, Destination: EEC/SNG CYPRESS EFFINGHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_26654664fb3e0de8b28261267a7e8b11 = L.polyline(
+                [[32.26943, -81.28221], [32.26943, -81.28221]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_73a1d5768e7a96517f6ef1e592754a31 = L.marker(
+                [32.26943, -81.28221],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_73a1d5768e7a96517f6ef1e592754a31.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG CYPRESS EFFINGHAM, Origin: EEC/SNG CYPRESS EFFINGHAM, Destination: SO CO/EEC PLANT MCINTOSH EFFINGHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6396c63a903e1519a60fa757733f4554 = L.marker(
+                [32.26943, -81.28221],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_6396c63a903e1519a60fa757733f4554.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG CYPRESS EFFINGHAM, Origin: EEC/SNG CYPRESS EFFINGHAM, Destination: SO CO/EEC PLANT MCINTOSH EFFINGHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a7d2541f3ec2f4aa03d78b905e7147d7 = L.polyline(
+                [[32.26943, -81.28221], [32.14909, -81.16317]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_d5a2beb5216d13ef90fc3cb9f82f20a1 = L.marker(
+                [32.26943, -81.28221],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_d5a2beb5216d13ef90fc3cb9f82f20a1.bindTooltip(
+                `<div>
+                     Pipeline: SO CO/EEC PLANT MCINTOSH EFFINGHAM, Origin: SO CO/EEC PLANT MCINTOSH EFFINGHAM, Destination: EEC/SNG PT WENTWORTH CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54630cfd39be5fdb297508c50657997b = L.marker(
+                [32.14909, -81.16317],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_54630cfd39be5fdb297508c50657997b.bindTooltip(
+                `<div>
+                     Pipeline: SO CO/EEC PLANT MCINTOSH EFFINGHAM, Origin: SO CO/EEC PLANT MCINTOSH EFFINGHAM, Destination: EEC/SNG PT WENTWORTH CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f8945bc05596ecd6d3536cbb985b49f1 = L.polyline(
+                [[32.14909, -81.16317], [32.17229, -81.19713]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_b6dd964b87aeeb91ec0ecc6f3235a362 = L.marker(
+                [32.14909, -81.16317],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_b6dd964b87aeeb91ec0ecc6f3235a362.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG PT WENTWORTH CHATHAM, Origin: EEC/SNG PT WENTWORTH CHATHAM, Destination: CARGAS/EEC PORT WENTWORTH CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc681575ee4f9de5df2b837f31500bd4 = L.marker(
+                [32.17229, -81.19713],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_fc681575ee4f9de5df2b837f31500bd4.bindTooltip(
+                `<div>
+                     Pipeline: EEC/SNG PT WENTWORTH CHATHAM, Origin: EEC/SNG PT WENTWORTH CHATHAM, Destination: CARGAS/EEC PORT WENTWORTH CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ebff179141bb077333cae9b9e5dde549 = L.polyline(
+                [[32.17229, -81.19713], [32.16149, -81.18319]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_b0281f590f209e3740a54401aa426d50 = L.marker(
+                [32.17229, -81.19713],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_b0281f590f209e3740a54401aa426d50.bindTooltip(
+                `<div>
+                     Pipeline: CARGAS/EEC PORT WENTWORTH CHATHAM, Origin: CARGAS/EEC PORT WENTWORTH CHATHAM, Destination: SLNG/EEC CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33eb5b4b0304a5e9fdc00e7eedea290d = L.marker(
+                [32.16149, -81.18319],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_33eb5b4b0304a5e9fdc00e7eedea290d.bindTooltip(
+                `<div>
+                     Pipeline: CARGAS/EEC PORT WENTWORTH CHATHAM, Origin: CARGAS/EEC PORT WENTWORTH CHATHAM, Destination: SLNG/EEC CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_00719dedd7436d3ae8793fb2f02b95da = L.polyline(
+                [[32.16149, -81.18319], [32.16149, -81.18319]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            var marker_b118fda5afe346e5c236a4f67da4ba72 = L.marker(
+                [32.16149, -81.18319],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_b118fda5afe346e5c236a4f67da4ba72.bindTooltip(
+                `<div>
+                     Pipeline: SLNG/EEC CHATHAM, Origin: SLNG/EEC CHATHAM, Destination: SLNG/EEC CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a416a89e7f44ef0555435de135665b36 = L.marker(
+                [32.16149, -81.18319],
+                {}
+            ).addTo(map_65c57232292f1601d82a1fd1ea7f24d8);
+        
+    
+            marker_a416a89e7f44ef0555435de135665b36.bindTooltip(
+                `<div>
+                     Pipeline: SLNG/EEC CHATHAM, Origin: SLNG/EEC CHATHAM, Destination: SLNG/EEC CHATHAM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

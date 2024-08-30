@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ded8e52b2b630463a2d1ccda94e0a50 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ded8e52b2b630463a2d1ccda94e0a50" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ded8e52b2b630463a2d1ccda94e0a50 = L.map(
+                "map_3ded8e52b2b630463a2d1ccda94e0a50",
+                {
+                    center: [35.392516875, -88.56943875],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e16716ae85358a26a255099f6b1d32b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1e16716ae85358a26a255099f6b1d32b.addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var poly_line_e54bf15adce964f90878c728381043bd = L.polyline(
+                [[34.53815, -96.21861], [42.87813, -73.19677]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_abd0eabe4d06a309da7e5384c6dec5ad = L.marker(
+                [34.53815, -96.21861],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_abd0eabe4d06a309da7e5384c6dec5ad.bindTooltip(
+                `<div>
+                     Pipeline: ANTERO COALGATE ENABLE LEASE, Origin: ANTERO COALGATE ENABLE LEASE, Destination: GERTY CRP ENABLE LEASE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ec34d8c0276ce19ab94201c261dc73b = L.marker(
+                [42.87813, -73.19677],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_5ec34d8c0276ce19ab94201c261dc73b.bindTooltip(
+                `<div>
+                     Pipeline: ANTERO COALGATE ENABLE LEASE, Origin: ANTERO COALGATE ENABLE LEASE, Destination: GERTY CRP ENABLE LEASE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0c31e7a4d5060c0395a761e062a80311 = L.polyline(
+                [[42.87813, -73.19677], [42.87813, -73.19677]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_130a46864586ad515335bce94c7c07be = L.marker(
+                [42.87813, -73.19677],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_130a46864586ad515335bce94c7c07be.bindTooltip(
+                `<div>
+                     Pipeline: BENNINGTON (FROM MARK WEST), Origin: BENNINGTON (FROM MARK WEST), Destination: BENNINGTON (FROM ENABLE OK)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25e88fd6e45319dc32d2d35696082831 = L.marker(
+                [42.87813, -73.19677],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_25e88fd6e45319dc32d2d35696082831.bindTooltip(
+                `<div>
+                     Pipeline: BENNINGTON (FROM MARK WEST), Origin: BENNINGTON (FROM MARK WEST), Destination: BENNINGTON (FROM ENABLE OK)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8c9da6b14e0f782c924a97c08ac89b9b = L.polyline(
+                [[42.87813, -73.19677], [31.9686, -99.90181]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_eb4bc1e9abbc547b50d55f302a49c99e = L.marker(
+                [42.87813, -73.19677],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_eb4bc1e9abbc547b50d55f302a49c99e.bindTooltip(
+                `<div>
+                     Pipeline: BENNINGTON (FROM ENABLE OK), Origin: BENNINGTON (FROM ENABLE OK), Destination: SHERMAN (FROM ENTERPRISE)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da5ea68012ad68f7cc959f47365082af = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_da5ea68012ad68f7cc959f47365082af.bindTooltip(
+                `<div>
+                     Pipeline: BENNINGTON (FROM ENABLE OK), Origin: BENNINGTON (FROM ENABLE OK), Destination: SHERMAN (FROM ENTERPRISE)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ed14fe86e71635dacb701a1707c2d756 = L.polyline(
+                [[31.9686, -99.90181], [32.69565, -92.08419]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_fa6243dc4ac632dc8e44c20e4291a59f = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_fa6243dc4ac632dc8e44c20e4291a59f.bindTooltip(
+                `<div>
+                     Pipeline: PARIS (FROM ATMOS NORTH TEXAS), Origin: PARIS (FROM ATMOS NORTH TEXAS), Destination: STERLINGTON (TO GULF SOUTH)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb4d4ac9659f8aeb8c0f2be2bd591266 = L.marker(
+                [32.69565, -92.08419],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_cb4d4ac9659f8aeb8c0f2be2bd591266.bindTooltip(
+                `<div>
+                     Pipeline: PARIS (FROM ATMOS NORTH TEXAS), Origin: PARIS (FROM ATMOS NORTH TEXAS), Destination: STERLINGTON (TO GULF SOUTH)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dd8095a74f8ff9dc8d2f04b583ab811b = L.polyline(
+                [[32.69565, -92.08419], [31.9686, -99.90181]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_b92342a19a12b5a58d34f0773d61d064 = L.marker(
+                [32.69565, -92.08419],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_b92342a19a12b5a58d34f0773d61d064.bindTooltip(
+                `<div>
+                     Pipeline: STERLINGTON (TO GULF SOUTH), Origin: STERLINGTON (TO GULF SOUTH), Destination: STERLINGTON (TO TEXAS GAS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1c2b15cad7b4ee2ad10c08dfa846dca = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_f1c2b15cad7b4ee2ad10c08dfa846dca.bindTooltip(
+                `<div>
+                     Pipeline: STERLINGTON (TO GULF SOUTH), Origin: STERLINGTON (TO GULF SOUTH), Destination: STERLINGTON (TO TEXAS GAS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_af1390307e6e5dbe20c9d65592760bec = L.polyline(
+                [[31.9686, -99.90181], [35.51749, -86.58045]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_9130faa53c16569cb215268d3ba9407a = L.marker(
+                [31.9686, -99.90181],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_9130faa53c16569cb215268d3ba9407a.bindTooltip(
+                `<div>
+                     Pipeline: STERLINGTON (TO TEXAS GAS), Origin: STERLINGTON (TO TEXAS GAS), Destination: NORTH DELHI (TO COLUMBIA GULF)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28977a9a766463f9802e8a63d7a9b34a = L.marker(
+                [35.51749, -86.58045],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_28977a9a766463f9802e8a63d7a9b34a.bindTooltip(
+                `<div>
+                     Pipeline: STERLINGTON (TO TEXAS GAS), Origin: STERLINGTON (TO TEXAS GAS), Destination: NORTH DELHI (TO COLUMBIA GULF)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_15c05a865e75ed712c218893ab493bf5 = L.polyline(
+                [[35.51749, -86.58045], [30.39353, -86.49578]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_1c37f4abfd897e31ccba8650db022149 = L.marker(
+                [35.51749, -86.58045],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_1c37f4abfd897e31ccba8650db022149.bindTooltip(
+                `<div>
+                     Pipeline: TENNESSEE HEIDELBURG GULF SOUTH LEASE, Origin: TENNESSEE HEIDELBURG GULF SOUTH LEASE, Destination: CLARKE COUNTY DESTIN GULF SOUTH LEASE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9a92243db076472bb7012acc8e2a8b3 = L.marker(
+                [30.39353, -86.49578],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_d9a92243db076472bb7012acc8e2a8b3.bindTooltip(
+                `<div>
+                     Pipeline: TENNESSEE HEIDELBURG GULF SOUTH LEASE, Origin: TENNESSEE HEIDELBURG GULF SOUTH LEASE, Destination: CLARKE COUNTY DESTIN GULF SOUTH LEASE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3bab53e8e23cbfa27ab978244d43bf78 = L.polyline(
+                [[30.39353, -86.49578], [35.14186, -98.17725]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            var marker_317f73dcf077c2834801a33d7eb82961 = L.marker(
+                [30.39353, -86.49578],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_317f73dcf077c2834801a33d7eb82961.bindTooltip(
+                `<div>
+                     Pipeline: CLARKE COUNTY DESTIN GULF SOUTH LEASE, Origin: CLARKE COUNTY DESTIN GULF SOUTH LEASE, Destination: ROCK SPRINGS/SCOTT MTN GULF SOUTH LEASE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e17fc5569fa83e79a5e941e4b17e0a4 = L.marker(
+                [35.14186, -98.17725],
+                {}
+            ).addTo(map_3ded8e52b2b630463a2d1ccda94e0a50);
+        
+    
+            marker_5e17fc5569fa83e79a5e941e4b17e0a4.bindTooltip(
+                `<div>
+                     Pipeline: CLARKE COUNTY DESTIN GULF SOUTH LEASE, Origin: CLARKE COUNTY DESTIN GULF SOUTH LEASE, Destination: ROCK SPRINGS/SCOTT MTN GULF SOUTH LEASE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

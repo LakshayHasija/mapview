@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_84187188ed6b8b378d780be17a5f71f9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_84187188ed6b8b378d780be17a5f71f9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_84187188ed6b8b378d780be17a5f71f9 = L.map(
+                "map_84187188ed6b8b378d780be17a5f71f9",
+                {
+                    center: [41.759719357142856, -75.45981375],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_202d275fa4e3ad9b433d13bf08678f52 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_202d275fa4e3ad9b433d13bf08678f52.addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var poly_line_b5c4f9d6cc8e934500b7346732579c94 = L.polyline(
+                [[42.15757, -77.66681], [42.157888, -77.6643]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_035ad70c8f357a62536cfb3c79c75cdc = L.marker(
+                [42.15757, -77.66681],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_035ad70c8f357a62536cfb3c79c75cdc.bindTooltip(
+                `<div>
+                     Pipeline: INDEPENDENCE STA. NO. 2078, Origin: INDEPENDENCE STA. NO. 2078, Destination: NORTH GREENWOOD (72-000801)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_697da26a22d6f728874838e373a16bb4 = L.marker(
+                [42.157888, -77.6643],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_697da26a22d6f728874838e373a16bb4.bindTooltip(
+                `<div>
+                     Pipeline: INDEPENDENCE STA. NO. 2078, Origin: INDEPENDENCE STA. NO. 2078, Destination: NORTH GREENWOOD (72-000801)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_adee2bea7be3c3d69a0dfb535b7158f0 = L.polyline(
+                [[42.157888, -77.6643], [42.19069, -76.97604]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_22758fcd65b9b49b3066561da650b05e = L.marker(
+                [42.157888, -77.6643],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_22758fcd65b9b49b3066561da650b05e.bindTooltip(
+                `<div>
+                     Pipeline: NORTH GREENWOOD (72-000801), Origin: NORTH GREENWOOD (72-000801), Destination: CORNING NATURAL GAS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce61b90afff2473cf8989f3a7b6a8fb6 = L.marker(
+                [42.19069, -76.97604],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_ce61b90afff2473cf8989f3a7b6a8fb6.bindTooltip(
+                `<div>
+                     Pipeline: NORTH GREENWOOD (72-000801), Origin: NORTH GREENWOOD (72-000801), Destination: CORNING NATURAL GAS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a786c73b399040a4a017fbbd727e14a8 = L.polyline(
+                [[42.19069, -76.97604], [42.19151, -76.97657]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_3e38afbbcb8e851a82a41d4280e1b7f9 = L.marker(
+                [42.19069, -76.97604],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_3e38afbbcb8e851a82a41d4280e1b7f9.bindTooltip(
+                `<div>
+                     Pipeline: CORNING NATURAL GAS, Origin: CORNING NATURAL GAS, Destination: Corning Line R
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_232e3a8718bd7a93d1c854daac194c59 = L.marker(
+                [42.19151, -76.97657],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_232e3a8718bd7a93d1c854daac194c59.bindTooltip(
+                `<div>
+                     Pipeline: CORNING NATURAL GAS, Origin: CORNING NATURAL GAS, Destination: Corning Line R
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_040fc304a7d3806bcf4334297d9b2cbc = L.polyline(
+                [[42.19151, -76.97657], [42.19199, -76.87794]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_d0ab3bc38304014d6a10099495970bed = L.marker(
+                [42.19151, -76.97657],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_d0ab3bc38304014d6a10099495970bed.bindTooltip(
+                `<div>
+                     Pipeline: Corning Line R, Origin: Corning Line R, Destination: HICKORY GROVE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d75a468ca69dde3b4fad2b30ace2607 = L.marker(
+                [42.19199, -76.87794],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_1d75a468ca69dde3b4fad2b30ace2607.bindTooltip(
+                `<div>
+                     Pipeline: Corning Line R, Origin: Corning Line R, Destination: HICKORY GROVE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0a8dbf551ad2756c514f1d48047abdc8 = L.polyline(
+                [[42.19199, -76.87794], [42.15509, -76.48116]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_bc132988e990f6cda5a575da2db3cb83 = L.marker(
+                [42.19199, -76.87794],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_bc132988e990f6cda5a575da2db3cb83.bindTooltip(
+                `<div>
+                     Pipeline: HICKORY GROVE, Origin: HICKORY GROVE, Destination: Cooper Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e229bc4fa8e0001e085f8c6cfcfdfbe = L.marker(
+                [42.15509, -76.48116],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_7e229bc4fa8e0001e085f8c6cfcfdfbe.bindTooltip(
+                `<div>
+                     Pipeline: HICKORY GROVE, Origin: HICKORY GROVE, Destination: Cooper Hill
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7a0e45183358235f79d5698e34603195 = L.polyline(
+                [[42.15509, -76.48116], [42.15494, -76.46549]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_0f6ae13852269fb4939d1e59c333e508 = L.marker(
+                [42.15509, -76.48116],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_0f6ae13852269fb4939d1e59c333e508.bindTooltip(
+                `<div>
+                     Pipeline: Cooper Hill, Origin: Cooper Hill, Destination: Fortuna Cotton Hanlon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f211f953bf6d4c81501e19b072c4719e = L.marker(
+                [42.15494, -76.46549],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_f211f953bf6d4c81501e19b072c4719e.bindTooltip(
+                `<div>
+                     Pipeline: Cooper Hill, Origin: Cooper Hill, Destination: Fortuna Cotton Hanlon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_564e13b22e19189b63526402920feff0 = L.polyline(
+                [[42.15494, -76.46549], [42.15627, -76.56727]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_a2cd8ea7e47711f0f1c145d3369219c6 = L.marker(
+                [42.15494, -76.46549],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_a2cd8ea7e47711f0f1c145d3369219c6.bindTooltip(
+                `<div>
+                     Pipeline: Fortuna Cotton Hanlon, Origin: Fortuna Cotton Hanlon, Destination: SPENCER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a492fbd8b4c1979215f68a54c4ae07fd = L.marker(
+                [42.15627, -76.56727],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_a492fbd8b4c1979215f68a54c4ae07fd.bindTooltip(
+                `<div>
+                     Pipeline: Fortuna Cotton Hanlon, Origin: Fortuna Cotton Hanlon, Destination: SPENCER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_741cd0550a83fade70f43e1558d3c9fe = L.polyline(
+                [[42.15627, -76.56727], [42.15534, -75.91086]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_e39d1a9e65e1ab43360675367d313cd7 = L.marker(
+                [42.15627, -76.56727],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_e39d1a9e65e1ab43360675367d313cd7.bindTooltip(
+                `<div>
+                     Pipeline: SPENCER, Origin: SPENCER, Destination: NYS UNION CENTER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30b66e3b3121d4bea483eac1420a742a = L.marker(
+                [42.15534, -75.91086],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_30b66e3b3121d4bea483eac1420a742a.bindTooltip(
+                `<div>
+                     Pipeline: SPENCER, Origin: SPENCER, Destination: NYS UNION CENTER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8835d2e154bfb5c6393ffe64df41be6b = L.polyline(
+                [[42.15534, -75.91086], [42.15559, -76.01245]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_cbc3e1653920775d0fa5a200956ef251 = L.marker(
+                [42.15534, -75.91086],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_cbc3e1653920775d0fa5a200956ef251.bindTooltip(
+                `<div>
+                     Pipeline: NYS UNION CENTER, Origin: NYS UNION CENTER, Destination: ENDICOTT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c429e6b157b7cd2124fac53aeca96ed = L.marker(
+                [42.15559, -76.01245],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_1c429e6b157b7cd2124fac53aeca96ed.bindTooltip(
+                `<div>
+                     Pipeline: NYS UNION CENTER, Origin: NYS UNION CENTER, Destination: ENDICOTT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_879d669f68f500c31b30f854c4598569 = L.polyline(
+                [[42.15559, -76.01245], [42.15903, -75.97539]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_a7d0ba81d173c74d70ccd169c2d80922 = L.marker(
+                [42.15559, -76.01245],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_a7d0ba81d173c74d70ccd169c2d80922.bindTooltip(
+                `<div>
+                     Pipeline: ENDICOTT, Origin: ENDICOTT, Destination: WESTOVER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c35676ca64358ff21ada43b7e62f615a = L.marker(
+                [42.15903, -75.97539],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_c35676ca64358ff21ada43b7e62f615a.bindTooltip(
+                `<div>
+                     Pipeline: ENDICOTT, Origin: ENDICOTT, Destination: WESTOVER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5e725d46ceda94324814be3c846e9957 = L.polyline(
+                [[42.15903, -75.97539], [42.13913, -75.86799]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_98e0491c838a266ff75aa85fe3aef045 = L.marker(
+                [42.15903, -75.97539],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_98e0491c838a266ff75aa85fe3aef045.bindTooltip(
+                `<div>
+                     Pipeline: WESTOVER, Origin: WESTOVER, Destination: NYS WILLIS ROAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcb2de5083bc44f86e1b49467b940a10 = L.marker(
+                [42.13913, -75.86799],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_dcb2de5083bc44f86e1b49467b940a10.bindTooltip(
+                `<div>
+                     Pipeline: WESTOVER, Origin: WESTOVER, Destination: NYS WILLIS ROAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fcb9f5c8fa11e36d4d09fdf0697e4b79 = L.polyline(
+                [[42.13913, -75.86799], [42.139424, -75.865125]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_6495c086af6e30b1bc853f63e5dc3e53 = L.marker(
+                [42.13913, -75.86799],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_6495c086af6e30b1bc853f63e5dc3e53.bindTooltip(
+                `<div>
+                     Pipeline: NYS WILLIS ROAD, Origin: NYS WILLIS ROAD, Destination: PORT DICK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bc4dccb113b7fcfea337a1601f78d60 = L.marker(
+                [42.139424, -75.865125],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_7bc4dccb113b7fcfea337a1601f78d60.bindTooltip(
+                `<div>
+                     Pipeline: NYS WILLIS ROAD, Origin: NYS WILLIS ROAD, Destination: PORT DICK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c402314167b7aa63bbc7cdd1060d1800 = L.polyline(
+                [[42.139424, -75.865125], [42.15737, -75.92959]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_4ab70f0ad9c6371fdf19798906b27a61 = L.marker(
+                [42.139424, -75.865125],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_4ab70f0ad9c6371fdf19798906b27a61.bindTooltip(
+                `<div>
+                     Pipeline: PORT DICK, Origin: PORT DICK, Destination: NYS-Kirkwood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0909fe0d7a93f1d80d37317393c574dc = L.marker(
+                [42.15737, -75.92959],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_0909fe0d7a93f1d80d37317393c574dc.bindTooltip(
+                `<div>
+                     Pipeline: PORT DICK, Origin: PORT DICK, Destination: NYS-Kirkwood
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6d5afec8b665fb00d906bb0d44ee66a2 = L.polyline(
+                [[42.15737, -75.92959], [42.074, -75.42211]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_ab4238c64017b27964cb2cace655a1a8 = L.marker(
+                [42.15737, -75.92959],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_ab4238c64017b27964cb2cace655a1a8.bindTooltip(
+                `<div>
+                     Pipeline: NYS-Kirkwood, Origin: NYS-Kirkwood, Destination: WALTON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_074871229370b25790f474f4f85bda76 = L.marker(
+                [42.074, -75.42211],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_074871229370b25790f474f4f85bda76.bindTooltip(
+                `<div>
+                     Pipeline: NYS-Kirkwood, Origin: NYS-Kirkwood, Destination: WALTON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_967a8ce27d73153000afc472439ca06a = L.polyline(
+                [[42.074, -75.42211], [41.9216, -75.23735]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_fdd4d9a5e094a31e7338943d717a6d59 = L.marker(
+                [42.074, -75.42211],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_fdd4d9a5e094a31e7338943d717a6d59.bindTooltip(
+                `<div>
+                     Pipeline: WALTON, Origin: WALTON, Destination: HANCOCK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23e3aa64c9ece160d8ea7fb753810076 = L.marker(
+                [41.9216, -75.23735],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_23e3aa64c9ece160d8ea7fb753810076.bindTooltip(
+                `<div>
+                     Pipeline: WALTON, Origin: WALTON, Destination: HANCOCK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ec49b360850d4d2be0da5f20ecbc530f = L.polyline(
+                [[41.9216, -75.23735], [41.52187, -74.76096]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_265f2360bb6c5ebd0c499516cff6adaa = L.marker(
+                [41.9216, -75.23735],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_265f2360bb6c5ebd0c499516cff6adaa.bindTooltip(
+                `<div>
+                     Pipeline: HANCOCK, Origin: HANCOCK, Destination: HARTWOOD COUNTRY CLUB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93bfdccd5e54e9151a71bd1c727f02be = L.marker(
+                [41.52187, -74.76096],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_93bfdccd5e54e9151a71bd1c727f02be.bindTooltip(
+                `<div>
+                     Pipeline: HANCOCK, Origin: HANCOCK, Destination: HARTWOOD COUNTRY CLUB
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_33546b2438fbbffa5b6eb4e519260ac8 = L.polyline(
+                [[41.52187, -74.76096], [41.44138, -74.66648]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_210bfc4e5d2b64a2af4ae6b0db9437f9 = L.marker(
+                [41.52187, -74.76096],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_210bfc4e5d2b64a2af4ae6b0db9437f9.bindTooltip(
+                `<div>
+                     Pipeline: HARTWOOD COUNTRY CLUB, Origin: HARTWOOD COUNTRY CLUB, Destination: HUGUENOT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5f372e68d58beed82432cfe450daf08 = L.marker(
+                [41.44138, -74.66648],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_e5f372e68d58beed82432cfe450daf08.bindTooltip(
+                `<div>
+                     Pipeline: HARTWOOD COUNTRY CLUB, Origin: HARTWOOD COUNTRY CLUB, Destination: HUGUENOT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9d7c543de6985df702656143491c6db3 = L.polyline(
+                [[41.44138, -74.66648], [41.40807, -74.7417]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_18de6b82e2f131808f4d15cb74e96312 = L.marker(
+                [41.44138, -74.66648],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_18de6b82e2f131808f4d15cb74e96312.bindTooltip(
+                `<div>
+                     Pipeline: HUGUENOT, Origin: HUGUENOT, Destination: PORT JERVIS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_653668a6b228ade5f35e8588730af246 = L.marker(
+                [41.40807, -74.7417],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_653668a6b228ade5f35e8588730af246.bindTooltip(
+                `<div>
+                     Pipeline: HUGUENOT, Origin: HUGUENOT, Destination: PORT JERVIS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_88b1c37a56ab5b605230b8f8c4171060 = L.polyline(
+                [[41.40807, -74.7417], [41.35602, -74.81755]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_3331d608c0d7a76d3eca643fba21a211 = L.marker(
+                [41.40807, -74.7417],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_3331d608c0d7a76d3eca643fba21a211.bindTooltip(
+                `<div>
+                     Pipeline: PORT JERVIS, Origin: PORT JERVIS, Destination: Milford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78cd60a1b3764ddd63fe7e5cae4ec9b4 = L.marker(
+                [41.35602, -74.81755],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_78cd60a1b3764ddd63fe7e5cae4ec9b4.bindTooltip(
+                `<div>
+                     Pipeline: PORT JERVIS, Origin: PORT JERVIS, Destination: Milford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8f834431e0beebc5fc3b0c7671b4bbb8 = L.polyline(
+                [[41.35602, -74.81755], [41.36105, -74.55224]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_2727eb5185155b77a09db12187921dec = L.marker(
+                [41.35602, -74.81755],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_2727eb5185155b77a09db12187921dec.bindTooltip(
+                `<div>
+                     Pipeline: Milford, Origin: Milford, Destination: ORU Westtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_544b2cca9f50244eb14283ec3e6ad66a = L.marker(
+                [41.36105, -74.55224],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_544b2cca9f50244eb14283ec3e6ad66a.bindTooltip(
+                `<div>
+                     Pipeline: Milford, Origin: Milford, Destination: ORU Westtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4d55caa9b7e071c6a7cef0a6b1f1e84b = L.polyline(
+                [[41.36105, -74.55224], [41.27911, -74.36745]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_0dd977c1dedb2876e31994227c50b0d4 = L.marker(
+                [41.36105, -74.55224],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_0dd977c1dedb2876e31994227c50b0d4.bindTooltip(
+                `<div>
+                     Pipeline: ORU Westtown, Origin: ORU Westtown, Destination: ORU Warwick
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c07c290d0f5ead5bf724a82dd4b8cd9a = L.marker(
+                [41.27911, -74.36745],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_c07c290d0f5ead5bf724a82dd4b8cd9a.bindTooltip(
+                `<div>
+                     Pipeline: ORU Westtown, Origin: ORU Westtown, Destination: ORU Warwick
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1f9c0875b8ccd6dbd87bf0e6d88d1b01 = L.polyline(
+                [[41.27911, -74.36745], [41.2712, -74.39387]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_552776c9837b42b94d9a54a31c10dd1a = L.marker(
+                [41.27911, -74.36745],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_552776c9837b42b94d9a54a31c10dd1a.bindTooltip(
+                `<div>
+                     Pipeline: ORU Warwick, Origin: ORU Warwick, Destination: GREENWOOD LAKE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b2f7633a77cd904eabca595e6327334 = L.marker(
+                [41.2712, -74.39387],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_4b2f7633a77cd904eabca595e6327334.bindTooltip(
+                `<div>
+                     Pipeline: ORU Warwick, Origin: ORU Warwick, Destination: GREENWOOD LAKE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7da9b85730a4ac2cae23e9a2ace97dc0 = L.polyline(
+                [[41.2712, -74.39387], [41.16724, -74.14847]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_019f8087d57ee902d016071ebe8f7077 = L.marker(
+                [41.2712, -74.39387],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_019f8087d57ee902d016071ebe8f7077.bindTooltip(
+                `<div>
+                     Pipeline: GREENWOOD LAKE, Origin: GREENWOOD LAKE, Destination: CENTRAL HUDSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1eaf85b5d8a508987cff5c4f7a88c92f = L.marker(
+                [41.16724, -74.14847],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_1eaf85b5d8a508987cff5c4f7a88c92f.bindTooltip(
+                `<div>
+                     Pipeline: GREENWOOD LAKE, Origin: GREENWOOD LAKE, Destination: CENTRAL HUDSON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3fb563989900b6c29c0cde83e0b51d9c = L.polyline(
+                [[41.16724, -74.14847], [41.19204, -74.16706]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_a01a195310bb5dc64494cc209fe8e2db = L.marker(
+                [41.16724, -74.14847],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_a01a195310bb5dc64494cc209fe8e2db.bindTooltip(
+                `<div>
+                     Pipeline: CENTRAL HUDSON, Origin: CENTRAL HUDSON, Destination: ORU Tuxedo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c11059a0ed0869453684d782ed05482f = L.marker(
+                [41.19204, -74.16706],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_c11059a0ed0869453684d782ed05482f.bindTooltip(
+                `<div>
+                     Pipeline: CENTRAL HUDSON, Origin: CENTRAL HUDSON, Destination: ORU Tuxedo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f675d14935a42153540b93c0171696aa = L.polyline(
+                [[41.19204, -74.16706], [41.15689, -74.1215]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_f2d9fc1da4d2c16a5a48aef38e68814a = L.marker(
+                [41.19204, -74.16706],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_f2d9fc1da4d2c16a5a48aef38e68814a.bindTooltip(
+                `<div>
+                     Pipeline: ORU Tuxedo, Origin: ORU Tuxedo, Destination: SLOATSBURG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_767330d117d84275a2ae45f25d16948c = L.marker(
+                [41.15689, -74.1215],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_767330d117d84275a2ae45f25d16948c.bindTooltip(
+                `<div>
+                     Pipeline: ORU Tuxedo, Origin: ORU Tuxedo, Destination: SLOATSBURG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1c7db5f3000429ec1498ff76db70eef5 = L.polyline(
+                [[41.15689, -74.1215], [41.18148, -74.05117]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_79370bc0c364bed0261022282b7e526f = L.marker(
+                [41.15689, -74.1215],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_79370bc0c364bed0261022282b7e526f.bindTooltip(
+                `<div>
+                     Pipeline: SLOATSBURG, Origin: SLOATSBURG, Destination: BUENA VISTA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2595e57c4af14e9544026f82d6bc7bde = L.marker(
+                [41.18148, -74.05117],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_2595e57c4af14e9544026f82d6bc7bde.bindTooltip(
+                `<div>
+                     Pipeline: SLOATSBURG, Origin: SLOATSBURG, Destination: BUENA VISTA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9a657e582ae1692fd9f99984360698e8 = L.polyline(
+                [[41.18148, -74.05117], [41.17143, -74.01553]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_77f458df0a2d709a282e85fe376a74b8 = L.marker(
+                [41.18148, -74.05117],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_77f458df0a2d709a282e85fe376a74b8.bindTooltip(
+                `<div>
+                     Pipeline: BUENA VISTA, Origin: BUENA VISTA, Destination: BOWLINE M.S.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f42fadcca3558344fa9498b4001622cb = L.marker(
+                [41.17143, -74.01553],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_f42fadcca3558344fa9498b4001622cb.bindTooltip(
+                `<div>
+                     Pipeline: BUENA VISTA, Origin: BUENA VISTA, Destination: BOWLINE M.S.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_593637041fd03397814dea20f8d18f2e = L.polyline(
+                [[41.17143, -74.01553], [41.17143, -74.01553]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            var marker_978c98a45a602bc7da53ea3518342d3a = L.marker(
+                [41.17143, -74.01553],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_978c98a45a602bc7da53ea3518342d3a.bindTooltip(
+                `<div>
+                     Pipeline: BOWLINE M.S., Origin: BOWLINE M.S., Destination: BOWLINE M.S.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9cd2dda1bd2f0a7dcc1388f3bd02cba = L.marker(
+                [41.17143, -74.01553],
+                {}
+            ).addTo(map_84187188ed6b8b378d780be17a5f71f9);
+        
+    
+            marker_d9cd2dda1bd2f0a7dcc1388f3bd02cba.bindTooltip(
+                `<div>
+                     Pipeline: BOWLINE M.S., Origin: BOWLINE M.S., Destination: BOWLINE M.S.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
